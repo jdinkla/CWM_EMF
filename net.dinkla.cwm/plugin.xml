@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ (c) 2007 Joern Dinkla, www.dinkla.net
+ 
+
+ $Id$
+-->
+
+<plugin>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "CWM" 
+       class = "CWM.CWMPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Core" 
+       class = "CWM.Core.CorePackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Behavioral" 
+       class = "CWM.Behavioral.BehavioralPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Relationships" 
+       class = "CWM.Relationships.RelationshipsPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "CwmInstance" 
+       class = "CWM.CwmInstance.CwmInstancePackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "BusinessInformation" 
+       class = "CWM.BusinessInformation.BusinessInformationPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "DataTypes" 
+       class = "CWM.DataTypes.DataTypesPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Expressions" 
+       class = "CWM.Expressions.ExpressionsPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "KeysIndexes" 
+       class = "CWM.KeysIndexes.KeysIndexesPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "SoftwareDeployment" 
+       class = "CWM.SoftwareDeployment.SoftwareDeploymentPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "TypeMapping" 
+       class = "CWM.TypeMapping.TypeMappingPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Relational" 
+       class = "CWM.Relational.RelationalPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Enumerations" 
+       class = "CWM.Relational.Enumerations.EnumerationsPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Record" 
+       class = "CWM.Record.RecordPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Multidimensional" 
+       class = "CWM.Multidimensional.MultidimensionalPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "CwmXml" 
+       class = "CWM.CwmXml.CwmXmlPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "CwmTransformation" 
+       class = "CWM.CwmTransformation.CwmTransformationPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Olap" 
+       class = "CWM.Olap.OlapPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "MiningCore" 
+       class = "CWM.MiningCore.MiningCorePackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "MiningData" 
+       class = "CWM.MiningCore.MiningData.MiningDataPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "MiningFunctionSettings" 
+       class = "CWM.MiningCore.MiningFunctionSettings.MiningFunctionSettingsPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "MiningModel" 
+       class = "CWM.MiningCore.MiningModel.MiningModelPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "MiningResult" 
+       class = "CWM.MiningCore.MiningResult.MiningResultPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "MiningTask" 
+       class = "CWM.MiningCore.MiningTask.MiningTaskPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "EntryPoint" 
+       class = "CWM.MiningCore.EntryPoint.EntryPointPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Clustering" 
+       class = "CWM.Clustering.ClusteringPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "AssociationRules" 
+       class = "CWM.AssociationRules.AssociationRulesPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Supervised" 
+       class = "CWM.Supervised.SupervisedPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Classification" 
+       class = "CWM.Classification.ClassificationPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Approximation" 
+       class = "CWM.Approximation.ApproximationPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "AttributeImportance" 
+       class = "CWM.AttributeImportance.AttributeImportancePackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "InformationVisualization" 
+       class = "CWM.InformationVisualization.InformationVisualizationPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "BusinessNomenclature" 
+       class = "CWM.BusinessNomenclature.BusinessNomenclaturePackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "WarehouseProcess" 
+       class = "CWM.WarehouseProcess.WarehouseProcessPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "DataType" 
+       class = "CWM.WarehouseProcess.DataType.DataTypePackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "Events" 
+       class = "CWM.WarehouseProcess.Events.EventsPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "WarehouseOperation" 
+       class = "CWM.WarehouseOperation.WarehouseOperationPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "CWMComplete" 
+       class = "CWM.CWMComplete.CWMCompletePackage" />
+  </extension>
+
+</plugin>

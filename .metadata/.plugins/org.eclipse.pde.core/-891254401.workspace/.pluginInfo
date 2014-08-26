@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="807" localization="plugin" name="%pluginName" project="net.dinkla.cwm" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="808" class="CWM.provider.CwmEditPlugin$Implementation" localization="plugin" name="%pluginName" project="net.dinkla.cwm.edit" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="811" localization="plugin" name="MOF 2 Ecore Converter" project="net.dinkla.mof2ecore" provider="Joern Dinkla">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="809" class="CWM.presentation.CwmEditorPlugin$Implementation" localization="plugin" name="%pluginName" project="net.dinkla.cwm.editor" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="810" localization="plugin" name="%pluginName" project="net.dinkla.cwm.tests" provider="%providerName">
+		<library name="."/>
+	</bundle>
+</map>

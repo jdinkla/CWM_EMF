@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="familie"
+    nsURI="http://net.dinkla.family" nsPrefix="familie">
+  <eAnnotations source="dubdi dibdi dubdi dubdi">
+    <details key="a" value="2323"/>
+    <details key="b" value="sdfdf"/>
+  </eAnnotations>
+  <eClassifiers xsi:type="ecore:EEnum" name="Geschlecht">
+    <eLiterals name="Maennlich" value="1"/>
+    <eLiterals name="Weiblich" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GEFRectangle">
+    <eAnnotations source="Eehehheheheheheheh"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="x" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="y" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="width" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1">
+      <eAnnotations source="Lowowlowowlwow">
+        <details/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="height" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GEFModelObject">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bounds" eType="#//GEFRectangle"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Person" eSuperTypes="#//GEFModelObject">
+    <eOperations name="getKinderRelEntities" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EEList"/>
+    <eOperations name="getElternRelEntities" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EEList"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Vorname" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nachname" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Ehen" upperBound="-1" eType="#//Ehe"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Kinder" upperBound="-1"
+        eType="#//Person"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Geburtsdatum" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Geburtsort" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Todesdatum" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="OrtDesTodes" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Frau" eSuperTypes="#//Person">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="geschlecht" lowerBound="1"
+        eType="#//Geschlecht" changeable="false" defaultValueLiteral="Weiblich"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Geburtsname" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Mann" eSuperTypes="#//Person">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="geschlecht" lowerBound="1"
+        eType="#//Geschlecht" changeable="false" defaultValueLiteral="Männlich"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Ehe">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Mann" lowerBound="1" eType="#//Mann"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Frau" lowerBound="1" eType="#//Frau"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Hochzeit" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Scheidung" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Ort" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Stammbaum" eSuperTypes="#//GEFModelObject">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Personen" upperBound="-1"
+        eType="#//Person" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Ehen" upperBound="-1" eType="#//Ehe"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Kind">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="A" eType="#//Person"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="B" eType="#//Person"/>
+  </eClassifiers>
+</ecore:EPackage>

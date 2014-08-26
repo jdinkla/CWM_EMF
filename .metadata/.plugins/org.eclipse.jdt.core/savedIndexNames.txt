@@ -1,0 +1,8 @@
+INDEX VERSION 1.126+C:\workspace\net.dinkla.mof2ecore\.metadata\.plugins\org.eclipse.jdt.core
+3327495609.index
+3309397531.index
+667286050.index
+1755153892.index
+4205092828.index
+1156803821.index
+120107252.index

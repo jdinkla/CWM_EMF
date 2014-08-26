@@ -1,0 +1,2584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="CWM"
+    nsURI="http://www.dinkla.net/" nsPrefix="CWM">
+  <eClassifiers xsi:type="ecore:EClass" name="_CWM_Ecore_Container">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Core" eType="#//Core/_Core_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Behavioral" eType="#//Behavioral/_Behavioral_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Relationships" eType="#//Relationships/_Relationships_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Instance" eType="#//Instance_/_Instance_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="BusinessInformation" eType="#//BusinessInformation/_BusinessInformation_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="DataTypes" eType="#//DataTypes/_DataTypes_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Expressions" eType="#//Expressions/_Expressions_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="KeysIndexes" eType="#//KeysIndexes/_KeysIndexes_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SoftwareDeployment" eType="#//SoftwareDeployment/_SoftwareDeployment_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="TypeMapping" eType="#//TypeMapping/_TypeMapping_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Relational" eType="#//Relational/_Relational_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Enumerations" eType="#//Relational/Enumerations/_Enumerations_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Record" eType="#//Record/_Record_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Multidimensional" eType="#//Multidimensional/_Multidimensional_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="XML" eType="#//XML/_XML_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Transformation" eType="#//Transformation_/_Transformation_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Olap" eType="#//Olap/_Olap_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="MiningCore" eType="#//MiningCore/_MiningCore_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="MiningData" eType="#//MiningCore/MiningData/_MiningData_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="MiningFunctionSettings"
+        eType="#//MiningCore/MiningFunctionSettings/_MiningFunctionSettings_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="MiningModel" eType="#//MiningCore/MiningModel/_MiningModel_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="MiningResult" eType="#//MiningCore/MiningResult/_MiningResult_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="MiningTask" eType="#//MiningCore/MiningTask/_MiningTask_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="EntryPoint" eType="#//MiningCore/EntryPoint/_EntryPoint_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Clustering" eType="#//Clustering/_Clustering_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="AssociationRules" eType="#//AssociationRules/_AssociationRules_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Supervised" eType="#//Supervised/_Supervised_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Classification" eType="#//Classification/_Classification_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Approximation" eType="#//Approximation/_Approximation_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="AttributeImportance" eType="#//AttributeImportance/_AttributeImportance_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="InformationVisualization"
+        eType="#//InformationVisualization/_InformationVisualization_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="BusinessNomenclature" eType="#//BusinessNomenclature/_BusinessNomenclature_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="WarehouseProcess" eType="#//WarehouseProcess/_WarehouseProcess_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="DataType" eType="#//WarehouseProcess/DataType/_DataType_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Events" eType="#//WarehouseProcess/Events/_Events_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="WarehouseOperation" eType="#//WarehouseOperation/_WarehouseOperation_Ecore_Container"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="CWMComplete" eType="#//CWMComplete/_CWMComplete_Ecore_Container"
+        containment="true"/>
+  </eClassifiers>
+  <eSubpackages name="Core" nsURI="Core" nsPrefix="Core">
+    <eClassifiers xsi:type="ecore:EClass" name="Element" abstract="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="ModelElement" abstract="true" eSuperTypes="#//Core/Element">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Name"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="visibility" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/VisibilityKind"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="clientDependency" ordered="false"
+          upperBound="-1" eType="#//Core/Dependency"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="constraint" ordered="false"
+          upperBound="-1" eType="#//Core/Constraint"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="importer" ordered="false"
+          upperBound="-1" eType="#//Core/Package"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="namespace" ordered="false"
+          unique="false" eType="#//Core/Namespace"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="taggedValue" ordered="false"
+          upperBound="-1" eType="#//Core/TaggedValue" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Namespace" abstract="true" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ownedElement" ordered="false"
+          upperBound="-1" eType="#//Core/ModelElement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Classifier" abstract="true" eSuperTypes="#//Core/Namespace">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isAbstract" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="feature" upperBound="-1"
+          eType="#//Core/Feature" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Class" eSuperTypes="#//Core/Classifier"/>
+    <eClassifiers xsi:type="ecore:EClass" name="DataType" eSuperTypes="#//Core/Classifier"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Package" eSuperTypes="#//Core/Namespace">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="importedElement" ordered="false"
+          upperBound="-1" eType="#//Core/ModelElement"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Subsystem" eSuperTypes="#//Core/Package #//Core/Classifier"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Model" eSuperTypes="#//Core/Package"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Feature" abstract="true" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="ownerScope" ordered="false"
+          unique="false" eType="#//Core/ScopeKind"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="owner" ordered="false"
+          unique="false" eType="#//Core/Classifier"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="StructuralFeature" abstract="true"
+        eSuperTypes="#//Core/Feature">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="changeability" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/ChangeableKind"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="multiplicity" ordered="false"
+          unique="false" eType="#//Core/Multiplicity" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="ordering" ordered="false"
+          unique="false" eType="#//Core/OrderingKind"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="targetScope" ordered="false"
+          unique="false" eType="#//Core/ScopeKind"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Classifier"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Attribute" eSuperTypes="#//Core/StructuralFeature">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="initialValue" ordered="false"
+          unique="false" eType="#//Core/Expression" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Constraint" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="body" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/BooleanExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="constrainedElement" upperBound="-1"
+          eType="#//Core/ModelElement"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Dependency" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="kind" ordered="false"
+          unique="false" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="client" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/ModelElement"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="supplier" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/ModelElement"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Expression" eSuperTypes="#//Core/Element">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="body" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="language" ordered="false"
+          unique="false" eType="#//Core/Name"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="BooleanExpression" eSuperTypes="#//Core/Expression"/>
+    <eClassifiers xsi:type="ecore:EClass" name="ProcedureExpression" eSuperTypes="#//Core/Expression"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Multiplicity" eSuperTypes="#//Core/Element">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="range" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/MultiplicityRange" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="MultiplicityRange" eSuperTypes="#//Core/Element">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="lower" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="upper" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/UnlimitedInteger"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="multiplicity" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Multiplicity"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Stereotype" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="baseClass" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Name"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="extendedElement" ordered="false"
+          upperBound="-1" eType="#//Core/ModelElement"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="requiredTag" ordered="false"
+          upperBound="-1" eType="#//Core/TaggedValue" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="stereotypeConstraint"
+          ordered="false" upperBound="-1" eType="#//Core/Constraint" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TaggedValue" eSuperTypes="#//Core/Element">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="tag" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Name"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="modelElement" ordered="false"
+          unique="false" eType="#//Core/ModelElement"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="stereotype" ordered="false"
+          unique="false" eType="#//Core/Stereotype"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EDataType" name="Any" instanceClassName="java.lang.Object"/>
+    <eClassifiers xsi:type="ecore:EDataType" name="Boolean" instanceClassName="java.lang.Boolean"/>
+    <eClassifiers xsi:type="ecore:EDataType" name="Float" instanceClassName="java.lang.Float"/>
+    <eClassifiers xsi:type="ecore:EDataType" name="Integer" instanceClassName="java.lang.Integer"/>
+    <eClassifiers xsi:type="ecore:EDataType" name="Name" instanceClassName="java.lang.String"/>
+    <eClassifiers xsi:type="ecore:EDataType" name="String" instanceClassName="java.lang.String"/>
+    <eClassifiers xsi:type="ecore:EDataType" name="Time" instanceClassName="java.lang.String"/>
+    <eClassifiers xsi:type="ecore:EDataType" name="UnlimitedInteger" instanceClassName="java.lang.Integer"/>
+    <eClassifiers xsi:type="ecore:EEnum" name="ChangeableKind">
+      <eLiterals name="ck_changeable" value="1"/>
+      <eLiterals name="ck_frozen" value="2"/>
+      <eLiterals name="ck_addOnly" value="3"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="OrderingKind">
+      <eLiterals name="ok_unordered" value="1"/>
+      <eLiterals name="ok_ordered" value="2"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ScopeKind">
+      <eLiterals name="sk_instance" value="1"/>
+      <eLiterals name="sk_classifier" value="2"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="VisibilityKind">
+      <eLiterals name="vk_public" value="1"/>
+      <eLiterals name="vk_protected" value="2"/>
+      <eLiterals name="vk_private" value="3"/>
+      <eLiterals name="vk_package" value="4"/>
+      <eLiterals name="vk_notapplicable" value="5"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_Core_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Element" upperBound="-1"
+          eType="#//Core/Element" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ModelElement" upperBound="-1"
+          eType="#//Core/ModelElement" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Namespace" upperBound="-1"
+          eType="#//Core/Namespace" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Classifier" upperBound="-1"
+          eType="#//Core/Classifier" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Class" upperBound="-1"
+          eType="#//Core/Class" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="DataType" upperBound="-1"
+          eType="#//Core/DataType" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Package" upperBound="-1"
+          eType="#//Core/Package" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Subsystem" upperBound="-1"
+          eType="#//Core/Subsystem" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Model" upperBound="-1"
+          eType="#//Core/Model" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Feature" upperBound="-1"
+          eType="#//Core/Feature" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="StructuralFeature" upperBound="-1"
+          eType="#//Core/StructuralFeature" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Attribute" upperBound="-1"
+          eType="#//Core/Attribute" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Constraint" upperBound="-1"
+          eType="#//Core/Constraint" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Dependency" upperBound="-1"
+          eType="#//Core/Dependency" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Expression" upperBound="-1"
+          eType="#//Core/Expression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BooleanExpression" upperBound="-1"
+          eType="#//Core/BooleanExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ProcedureExpression"
+          upperBound="-1" eType="#//Core/ProcedureExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Multiplicity" upperBound="-1"
+          eType="#//Core/Multiplicity" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="MultiplicityRange" upperBound="-1"
+          eType="#//Core/MultiplicityRange" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Stereotype" upperBound="-1"
+          eType="#//Core/Stereotype" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="TaggedValue" upperBound="-1"
+          eType="#//Core/TaggedValue" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="Behavioral" nsURI="Behavioral" nsPrefix="Behavioral">
+    <eClassifiers xsi:type="ecore:EClass" name="Argument" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="value" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Expression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="callAction" ordered="false"
+          unique="false" eType="#//Behavioral/CallAction"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="BehavioralFeature" abstract="true"
+        eSuperTypes="#//Core/Feature">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isQuery" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="parameter" upperBound="-1"
+          eType="#//Behavioral/Parameter" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="CallAction" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="operation" ordered="false"
+          unique="false" lowerBound="1" eType="#//Behavioral/Operation"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="actualArgument" upperBound="-1"
+          eType="#//Behavioral/Argument" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Event" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="parameter" upperBound="-1"
+          eType="#//Behavioral/Parameter" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Interface" eSuperTypes="#//Core/Classifier"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Method" eSuperTypes="#//Behavioral/BehavioralFeature">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="body" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/ProcedureExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="specification" ordered="false"
+          unique="false" lowerBound="1" eType="#//Behavioral/Operation"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Operation" eSuperTypes="#//Behavioral/BehavioralFeature">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isAbstract" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="method" ordered="false"
+          upperBound="-1" eType="#//Behavioral/Method"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Parameter" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="defaultValue" ordered="false"
+          unique="false" eType="#//Core/Expression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="kind" ordered="false"
+          unique="false" lowerBound="1" eType="#//Behavioral/ParameterDirectionKind"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="behavioralFeature" ordered="false"
+          unique="false" eType="#//Behavioral/BehavioralFeature"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="event" ordered="false"
+          unique="false" eType="#//Behavioral/Event"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Classifier"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ParameterDirectionKind">
+      <eLiterals name="pdk_in" value="1"/>
+      <eLiterals name="pdk_inout" value="2"/>
+      <eLiterals name="pdk_out" value="3"/>
+      <eLiterals name="pdk_return" value="4"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_Behavioral_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Argument" upperBound="-1"
+          eType="#//Behavioral/Argument" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BehavioralFeature" upperBound="-1"
+          eType="#//Behavioral/BehavioralFeature" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CallAction" upperBound="-1"
+          eType="#//Behavioral/CallAction" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Event" upperBound="-1"
+          eType="#//Behavioral/Event" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Interface" upperBound="-1"
+          eType="#//Behavioral/Interface" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Method" upperBound="-1"
+          eType="#//Behavioral/Method" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Operation" upperBound="-1"
+          eType="#//Behavioral/Operation" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Parameter" upperBound="-1"
+          eType="#//Behavioral/Parameter" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="Relationships" nsURI="Relationships" nsPrefix="Relationships">
+    <eClassifiers xsi:type="ecore:EClass" name="Association" eSuperTypes="#//Core/Class"/>
+    <eClassifiers xsi:type="ecore:EClass" name="AssociationEnd" eSuperTypes="#//Core/StructuralFeature">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="aggregation" ordered="false"
+          unique="false" lowerBound="1" eType="#//Relationships/AggregationKind"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isNavigable" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Generalization" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="child" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Classifier"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="parent" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Classifier"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="AggregationKind">
+      <eLiterals name="ak_none" value="1"/>
+      <eLiterals name="ak_aggregate" value="2"/>
+      <eLiterals name="ak_composite" value="3"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_Relationships_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Association" upperBound="-1"
+          eType="#//Relationships/Association" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="AssociationEnd" upperBound="-1"
+          eType="#//Relationships/AssociationEnd" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Generalization" upperBound="-1"
+          eType="#//Relationships/Generalization" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="Instance_" nsURI="Instance" nsPrefix="Instance">
+    <eClassifiers xsi:type="ecore:EClass" name="DataSlot" eSuperTypes="#//Instance_/Slot">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="dataValue" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dataType" ordered="false"
+          unique="false" eType="#//Core/DataType"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="DataValue" eSuperTypes="#//Instance_/Instance">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Extent" eSuperTypes="#//Core/Package"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Instance" abstract="true" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="classifier" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Classifier"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Object" eSuperTypes="#//Instance_/Instance">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="slot" ordered="false"
+          upperBound="-1" eType="#//Instance_/Slot" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Slot" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="object" ordered="false"
+          unique="false" eType="#//Instance_/Object"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="value" ordered="false"
+          unique="false" eType="#//Instance_/Instance"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="feature" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/StructuralFeature"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_Instance_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="DataSlot" upperBound="-1"
+          eType="#//Instance_/DataSlot" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="DataValue" upperBound="-1"
+          eType="#//Instance_/DataValue" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Extent" upperBound="-1"
+          eType="#//Instance_/Extent" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Instance" upperBound="-1"
+          eType="#//Instance_/Instance" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Object" upperBound="-1"
+          eType="#//Instance_/Object" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Slot" upperBound="-1"
+          eType="#//Instance_/Slot" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="BusinessInformation" nsURI="BusinessInformation" nsPrefix="BusinessInformation">
+    <eClassifiers xsi:type="ecore:EClass" name="ResponsibleParty" eSuperTypes="#//Core/Namespace">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="responsibility" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="contact" upperBound="-1"
+          eType="#//BusinessInformation/Contact"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="modelElement" ordered="false"
+          upperBound="-1" eType="#//Core/ModelElement"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Telephone" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="phoneNumber" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="phoneType" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="contact" ordered="false"
+          upperBound="-1" eType="#//BusinessInformation/Contact"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Email" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="emailAddress" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="emailType" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="contact" ordered="false"
+          upperBound="-1" eType="#//BusinessInformation/Contact"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Location" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="locationType" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="address" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="city" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="postCode" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="area" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="country" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="contact" ordered="false"
+          upperBound="-1" eType="#//BusinessInformation/Contact"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Contact" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="email" upperBound="-1"
+          eType="#//BusinessInformation/Email"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="location" upperBound="-1"
+          eType="#//BusinessInformation/Location"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="responsibleParty" ordered="false"
+          upperBound="-1" eType="#//BusinessInformation/ResponsibleParty"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="telephone" upperBound="-1"
+          eType="#//BusinessInformation/Telephone"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="url" upperBound="-1"
+          eType="#//BusinessInformation/ResourceLocator"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Description" eSuperTypes="#//Core/Namespace">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="body" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="language" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Name"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="modelElement" ordered="false"
+          upperBound="-1" eType="#//Core/ModelElement"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Document" eSuperTypes="#//Core/Namespace">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="reference" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="modelElement" ordered="false"
+          upperBound="-1" eType="#//Core/ModelElement"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ResourceLocator" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="url" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="contact" ordered="false"
+          upperBound="-1" eType="#//BusinessInformation/Contact"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_BusinessInformation_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ResponsibleParty" upperBound="-1"
+          eType="#//BusinessInformation/ResponsibleParty" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Telephone" upperBound="-1"
+          eType="#//BusinessInformation/Telephone" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Email" upperBound="-1"
+          eType="#//BusinessInformation/Email" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Location" upperBound="-1"
+          eType="#//BusinessInformation/Location" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Contact" upperBound="-1"
+          eType="#//BusinessInformation/Contact" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Description" upperBound="-1"
+          eType="#//BusinessInformation/Description" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Document" upperBound="-1"
+          eType="#//BusinessInformation/Document" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ResourceLocator" upperBound="-1"
+          eType="#//BusinessInformation/ResourceLocator" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="DataTypes" nsURI="DataTypes" nsPrefix="DataTypes">
+    <eClassifiers xsi:type="ecore:EClass" name="Enumeration" eSuperTypes="#//Core/DataType">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isOrdered" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="literal" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//DataTypes/EnumerationLiteral" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="EnumerationLiteral" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="value" ordered="false"
+          unique="false" eType="#//Core/Expression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="enumeration" ordered="false"
+          unique="false" lowerBound="1" eType="#//DataTypes/Enumeration"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="QueryExpression" eSuperTypes="#//Core/ProcedureExpression"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TypeAlias" eSuperTypes="#//Core/DataType">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Classifier"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Union" eSuperTypes="#//Core/Classifier">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="discriminator" ordered="false"
+          unique="false" eType="#//Core/StructuralFeature"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="UnionMember" eSuperTypes="#//Core/Attribute">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="memberCase" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Expression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isDefault" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_DataTypes_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Enumeration" upperBound="-1"
+          eType="#//DataTypes/Enumeration" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="EnumerationLiteral" upperBound="-1"
+          eType="#//DataTypes/EnumerationLiteral" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="QueryExpression" upperBound="-1"
+          eType="#//DataTypes/QueryExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="TypeAlias" upperBound="-1"
+          eType="#//DataTypes/TypeAlias" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Union" upperBound="-1"
+          eType="#//DataTypes/Union" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="UnionMember" upperBound="-1"
+          eType="#//DataTypes/UnionMember" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="Expressions" nsURI="Expressions" nsPrefix="Expressions">
+    <eClassifiers xsi:type="ecore:EClass" name="ExpressionNode" eSuperTypes="#//Core/Element">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+          unique="false" eType="#//Core/Expression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="featureNode" ordered="false"
+          unique="false" eType="#//Expressions/FeatureNode"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false"
+          unique="false" eType="#//Core/Classifier"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ConstantNode" eSuperTypes="#//Expressions/ExpressionNode">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Any"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ElementNode" eSuperTypes="#//Expressions/ExpressionNode">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="modelElement" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/ModelElement"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="FeatureNode" eSuperTypes="#//Expressions/ExpressionNode">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="argument" upperBound="-1"
+          eType="#//Expressions/ExpressionNode" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="feature" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Feature"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_Expressions_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ExpressionNode" upperBound="-1"
+          eType="#//Expressions/ExpressionNode" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ConstantNode" upperBound="-1"
+          eType="#//Expressions/ConstantNode" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ElementNode" upperBound="-1"
+          eType="#//Expressions/ElementNode" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="FeatureNode" upperBound="-1"
+          eType="#//Expressions/FeatureNode" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="KeysIndexes" nsURI="KeysIndexes" nsPrefix="KeysIndexes">
+    <eClassifiers xsi:type="ecore:EClass" name="UniqueKey" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="feature" lowerBound="1"
+          upperBound="-1" eType="#//Core/StructuralFeature"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="keyRelationship" ordered="false"
+          upperBound="-1" eType="#//KeysIndexes/KeyRelationship"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Index" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isPartitioning" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isSorted" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isUnique" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="indexedFeature" upperBound="-1"
+          eType="#//KeysIndexes/IndexedFeature" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="spannedClass" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Class"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="KeyRelationship" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="feature" lowerBound="1"
+          upperBound="-1" eType="#//Core/StructuralFeature"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="uniqueKey" ordered="false"
+          unique="false" lowerBound="1" eType="#//KeysIndexes/UniqueKey"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="IndexedFeature" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isAscending" ordered="false"
+          unique="false" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="feature" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/StructuralFeature"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="index" ordered="false"
+          unique="false" lowerBound="1" eType="#//KeysIndexes/Index"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_KeysIndexes_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="UniqueKey" upperBound="-1"
+          eType="#//KeysIndexes/UniqueKey" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Index" upperBound="-1"
+          eType="#//KeysIndexes/Index" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="KeyRelationship" upperBound="-1"
+          eType="#//KeysIndexes/KeyRelationship" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="IndexedFeature" upperBound="-1"
+          eType="#//KeysIndexes/IndexedFeature" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="SoftwareDeployment" nsURI="SoftwareDeployment" nsPrefix="SoftwareDeployment">
+    <eClassifiers xsi:type="ecore:EClass" name="Site" eSuperTypes="#//BusinessInformation/Location">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="containingSite" ordered="false"
+          upperBound="-1" eType="#//SoftwareDeployment/Site"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Machine" eSuperTypes="#//Core/Namespace">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="ipAddress" unique="false"
+          upperBound="-1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="hostName" unique="false"
+          upperBound="-1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="machineID" ordered="false"
+          unique="false" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="site" ordered="false"
+          unique="false" eType="#//SoftwareDeployment/Site"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="deployedComponent" ordered="false"
+          upperBound="-1" eType="#//SoftwareDeployment/DeployedComponent" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SoftwareSystem" eSuperTypes="#//Core/Subsystem">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" ordered="false"
+          unique="false" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="subtype" ordered="false"
+          unique="false" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="supplier" ordered="false"
+          unique="false" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="version" ordered="false"
+          unique="false" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="typespace" ordered="false"
+          upperBound="-1" eType="#//TypeMapping/TypeSystem"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="DeployedComponent" eSuperTypes="#//Core/Package">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="pathname" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="component" ordered="false"
+          unique="false" lowerBound="1" eType="#//SoftwareDeployment/Component"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="machine" ordered="false"
+          unique="false" lowerBound="1" eType="#//SoftwareDeployment/Machine"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="usingComponents" ordered="false"
+          upperBound="-1" eType="#//SoftwareDeployment/DeployedComponent"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="usedComponents" ordered="false"
+          upperBound="-1" eType="#//SoftwareDeployment/DeployedComponent"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="DeployedSoftwareSystem" eSuperTypes="#//Core/Package">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="fixLevel" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="softwareSystem" ordered="false"
+          unique="false" lowerBound="1" eType="#//SoftwareDeployment/SoftwareSystem"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="DataManager" eSuperTypes="#//SoftwareDeployment/DeployedComponent">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isCaseSensitive" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dataPackage" ordered="false"
+          upperBound="-1" eType="#//Core/Package"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="DataProvider" eSuperTypes="#//SoftwareDeployment/DataManager">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="resourceConnection" ordered="false"
+          upperBound="-1" eType="#//SoftwareDeployment/ProviderConnection" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ProviderConnection" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isReadOnly" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dataProvider" ordered="false"
+          unique="false" lowerBound="1" eType="#//SoftwareDeployment/DataProvider"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dataManager" ordered="false"
+          unique="false" lowerBound="1" eType="#//SoftwareDeployment/DataManager"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Component" eSuperTypes="#//Core/Classifier">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="designPackage" ordered="false"
+          upperBound="-1" eType="#//Core/Package"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="PackageUsage" eSuperTypes="#//Core/Dependency">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="packageAlias" ordered="false"
+          unique="false" eType="#//Core/Name"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_SoftwareDeployment_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Site" upperBound="-1"
+          eType="#//SoftwareDeployment/Site" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Machine" upperBound="-1"
+          eType="#//SoftwareDeployment/Machine" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="SoftwareSystem" upperBound="-1"
+          eType="#//SoftwareDeployment/SoftwareSystem" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="DeployedComponent" upperBound="-1"
+          eType="#//SoftwareDeployment/DeployedComponent" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="DeployedSoftwareSystem"
+          upperBound="-1" eType="#//SoftwareDeployment/DeployedSoftwareSystem" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="DataManager" upperBound="-1"
+          eType="#//SoftwareDeployment/DataManager" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="DataProvider" upperBound="-1"
+          eType="#//SoftwareDeployment/DataProvider" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ProviderConnection" upperBound="-1"
+          eType="#//SoftwareDeployment/ProviderConnection" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Component" upperBound="-1"
+          eType="#//SoftwareDeployment/Component" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PackageUsage" upperBound="-1"
+          eType="#//SoftwareDeployment/PackageUsage" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="TypeMapping" nsURI="TypeMapping" nsPrefix="TypeMapping">
+    <eClassifiers xsi:type="ecore:EClass" name="TypeMapping" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isBestMatch" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isLossy" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="sourceType" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Classifier"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="targetType" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Classifier"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TypeSystem" eSuperTypes="#//Core/Package">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="version" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_TypeMapping_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="TypeMapping" upperBound="-1"
+          eType="#//TypeMapping/TypeMapping" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="TypeSystem" upperBound="-1"
+          eType="#//TypeMapping/TypeSystem" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="Relational" nsURI="Relational" nsPrefix="Relational">
+    <eClassifiers xsi:type="ecore:EClass" name="Catalog" eSuperTypes="#//Core/Package">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="defaultCharacterSetName"
+          ordered="false" unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="defaultCollationName"
+          ordered="false" unique="false" lowerBound="1" eType="#//Core/String"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Schema" eSuperTypes="#//Core/Package"/>
+    <eClassifiers xsi:type="ecore:EClass" name="ColumnSet" eSuperTypes="#//Core/Class"/>
+    <eClassifiers xsi:type="ecore:EClass" name="NamedColumnSet" eSuperTypes="#//Relational/ColumnSet">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="optionScopeColumn" ordered="false"
+          upperBound="-1" eType="#//Relational/Column"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false"
+          unique="false" eType="#//Relational/SQLStructuredType"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="usingTrigger" ordered="false"
+          upperBound="-1" eType="#//Relational/Trigger"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Table" eSuperTypes="#//Relational/NamedColumnSet">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isTemporary" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="temporaryScope" ordered="false"
+          unique="false" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="trigger" upperBound="-1"
+          eType="#//Relational/Trigger"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isSystem" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="View" eSuperTypes="#//Relational/NamedColumnSet">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isReadOnly" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="checkOption" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="queryExpression" ordered="false"
+          unique="false" lowerBound="1" eType="#//DataTypes/QueryExpression" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="QueryColumnSet" eSuperTypes="#//Relational/ColumnSet">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="query" ordered="false"
+          unique="false" lowerBound="1" eType="#//DataTypes/QueryExpression" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SQLDataType" abstract="true" eSuperTypes="#//Core/Classifier">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="typeNumber" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SQLDistinctType" eSuperTypes="#//Relational/SQLDataType #//DataTypes/TypeAlias">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="length" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="precision" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="scale" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="sqlSimpleType" ordered="false"
+          unique="false" lowerBound="1" eType="#//Relational/SQLSimpleType"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SQLSimpleType" eSuperTypes="#//Relational/SQLDataType #//Core/DataType">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="characterMaximumLength"
+          ordered="false" unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="characterOctetLength"
+          ordered="false" unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numericPrecision" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numericPrecisionRadix"
+          ordered="false" unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numericScale" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="dateTimePrecision" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SQLStructuredType" eSuperTypes="#//Relational/SQLDataType #//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="referencingColumn" ordered="false"
+          upperBound="-1" eType="#//Relational/Column"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="columnSet" ordered="false"
+          upperBound="-1" eType="#//Relational/NamedColumnSet"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Column" eSuperTypes="#//Core/Attribute">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="precision" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="scale" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isNullable" ordered="false"
+          unique="false" lowerBound="1" eType="#//Relational/Enumerations/NullableType"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="length" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="collationName" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="characterSetName" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="optionScopeColumnSet"
+          ordered="false" unique="false" eType="#//Relational/NamedColumnSet"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="referencedTableType"
+          ordered="false" unique="false" eType="#//Relational/SQLStructuredType"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Procedure" eSuperTypes="#//Behavioral/Method">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#//Relational/Enumerations/ProcedureType"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Trigger" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="eventManipulation" ordered="false"
+          unique="false" lowerBound="1" eType="#//Relational/Enumerations/EventManipulationType"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="actionCondition" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/BooleanExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="actionStatement" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/ProcedureExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="actionOrientation" ordered="false"
+          unique="false" lowerBound="1" eType="#//Relational/Enumerations/ActionOrientationType"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="conditionTiming" ordered="false"
+          unique="false" lowerBound="1" eType="#//Relational/Enumerations/ConditionTimingType"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="conditionReferenceNewTable"
+          ordered="false" unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="conditionReferenceOldTable"
+          ordered="false" unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="table" ordered="false"
+          unique="false" lowerBound="1" eType="#//Relational/Table"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="usedColumnSet" ordered="false"
+          upperBound="-1" eType="#//Relational/NamedColumnSet"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SQLIndex" eSuperTypes="#//KeysIndexes/Index">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="filterCondition" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isNullable" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="autoUpdate" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="UniqueConstraint" eSuperTypes="#//KeysIndexes/UniqueKey">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="deferrability" ordered="false"
+          unique="false" lowerBound="1" eType="#//Relational/Enumerations/DeferrabilityType"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ForeignKey" eSuperTypes="#//KeysIndexes/KeyRelationship">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="deleteRule" ordered="false"
+          unique="false" lowerBound="1" eType="#//Relational/Enumerations/ReferentialRuleType"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="updateRule" ordered="false"
+          unique="false" lowerBound="1" eType="#//Relational/Enumerations/ReferentialRuleType"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="deferrability" ordered="false"
+          unique="false" lowerBound="1" eType="#//Relational/Enumerations/DeferrabilityType"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SQLIndexColumn" eSuperTypes="#//KeysIndexes/IndexedFeature"/>
+    <eClassifiers xsi:type="ecore:EClass" name="PrimaryKey" eSuperTypes="#//Relational/UniqueConstraint"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Row" eSuperTypes="#//Instance_/Object"/>
+    <eClassifiers xsi:type="ecore:EClass" name="ColumnValue" eSuperTypes="#//Instance_/DataValue"/>
+    <eClassifiers xsi:type="ecore:EClass" name="CheckConstraint" eSuperTypes="#//Core/Constraint">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="deferrability" ordered="false"
+          unique="false" lowerBound="1" eType="#//Relational/Enumerations/DeferrabilityType"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="RowSet" eSuperTypes="#//Instance_/Extent"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SQLParameter" eSuperTypes="#//Behavioral/Parameter"/>
+    <eClassifiers xsi:type="ecore:EClass" name="_Relational_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Catalog" upperBound="-1"
+          eType="#//Relational/Catalog" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Schema" upperBound="-1"
+          eType="#//Relational/Schema" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ColumnSet" upperBound="-1"
+          eType="#//Relational/ColumnSet" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="NamedColumnSet" upperBound="-1"
+          eType="#//Relational/NamedColumnSet" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Table" upperBound="-1"
+          eType="#//Relational/Table" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="View" upperBound="-1"
+          eType="#//Relational/View" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="QueryColumnSet" upperBound="-1"
+          eType="#//Relational/QueryColumnSet" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="SQLDataType" upperBound="-1"
+          eType="#//Relational/SQLDataType" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="SQLDistinctType" upperBound="-1"
+          eType="#//Relational/SQLDistinctType" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="SQLSimpleType" upperBound="-1"
+          eType="#//Relational/SQLSimpleType" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="SQLStructuredType" upperBound="-1"
+          eType="#//Relational/SQLStructuredType" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Column" upperBound="-1"
+          eType="#//Relational/Column" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Procedure" upperBound="-1"
+          eType="#//Relational/Procedure" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Trigger" upperBound="-1"
+          eType="#//Relational/Trigger" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="SQLIndex" upperBound="-1"
+          eType="#//Relational/SQLIndex" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="UniqueConstraint" upperBound="-1"
+          eType="#//Relational/UniqueConstraint" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ForeignKey" upperBound="-1"
+          eType="#//Relational/ForeignKey" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="SQLIndexColumn" upperBound="-1"
+          eType="#//Relational/SQLIndexColumn" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PrimaryKey" upperBound="-1"
+          eType="#//Relational/PrimaryKey" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Row" upperBound="-1"
+          eType="#//Relational/Row" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ColumnValue" upperBound="-1"
+          eType="#//Relational/ColumnValue" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CheckConstraint" upperBound="-1"
+          eType="#//Relational/CheckConstraint" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="RowSet" upperBound="-1"
+          eType="#//Relational/RowSet" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="SQLParameter" upperBound="-1"
+          eType="#//Relational/SQLParameter" containment="true"/>
+    </eClassifiers>
+    <eSubpackages name="Enumerations" nsURI="Enumerations" nsPrefix="Enumerations">
+      <eClassifiers xsi:type="ecore:EEnum" name="ActionOrientationType">
+        <eLiterals name="row" value="1"/>
+        <eLiterals name="statement" value="2"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="ConditionTimingType">
+        <eLiterals name="before" value="1"/>
+        <eLiterals name="after" value="2"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="DeferrabilityType">
+        <eLiterals name="initiallyDeferred" value="1"/>
+        <eLiterals name="initiallyImmediate" value="2"/>
+        <eLiterals name="notDeferrable" value="3"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="EventManipulationType">
+        <eLiterals name="insert" value="1"/>
+        <eLiterals name="delete" value="2"/>
+        <eLiterals name="update" value="3"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="NullableType">
+        <eLiterals name="columnNoNulls" value="1"/>
+        <eLiterals name="columnNullable" value="2"/>
+        <eLiterals name="columnNullableUnknown" value="3"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="ProcedureType">
+        <eLiterals name="procedure" value="1"/>
+        <eLiterals name="function" value="2"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="ReferentialRuleType">
+        <eLiterals name="importedKeyNoAction" value="1"/>
+        <eLiterals name="importedKeyCascade" value="2"/>
+        <eLiterals name="importedKeySetNull" value="3"/>
+        <eLiterals name="importedKeyRestrict" value="4"/>
+        <eLiterals name="importedKeySetDefault" value="5"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="_Enumerations_Ecore_Container"/>
+    </eSubpackages>
+  </eSubpackages>
+  <eSubpackages name="Record" nsURI="Record" nsPrefix="Record">
+    <eClassifiers xsi:type="ecore:EClass" name="Field" eSuperTypes="#//Core/Attribute">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="length" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="precision" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="scale" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="RecordDef" eSuperTypes="#//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="fieldDelimiter" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isFixedWidth" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="textDelimiter" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="file" ordered="false"
+          upperBound="-1" eType="#//Record/RecordFile"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="FixedOffsetField" eSuperTypes="#//Record/Field">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="offset" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="offsetUnitBits" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Integer"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="RecordFile" eSuperTypes="#//Core/Package">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isSelfDescribing" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="recordDelimiter" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="skipRecords" ordered="false"
+          unique="false" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="record" upperBound="-1"
+          eType="#//Record/RecordDef"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="FieldValue" eSuperTypes="#//Instance_/DataValue"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Record" eSuperTypes="#//Instance_/Object"/>
+    <eClassifiers xsi:type="ecore:EClass" name="RecordSet" eSuperTypes="#//Instance_/Extent"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Group" eSuperTypes="#//Core/Classifier"/>
+    <eClassifiers xsi:type="ecore:EClass" name="_Record_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Field" upperBound="-1"
+          eType="#//Record/Field" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="RecordDef" upperBound="-1"
+          eType="#//Record/RecordDef" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="FixedOffsetField" upperBound="-1"
+          eType="#//Record/FixedOffsetField" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="RecordFile" upperBound="-1"
+          eType="#//Record/RecordFile" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="FieldValue" upperBound="-1"
+          eType="#//Record/FieldValue" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Record" upperBound="-1"
+          eType="#//Record/Record" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="RecordSet" upperBound="-1"
+          eType="#//Record/RecordSet" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Group" upperBound="-1"
+          eType="#//Record/Group" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="Multidimensional" nsURI="Multidimensional" nsPrefix="Multidimensional">
+    <eClassifiers xsi:type="ecore:EClass" name="Dimension" eSuperTypes="#//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimensionedObject" upperBound="-1"
+          eType="#//Multidimensional/DimensionedObject"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="component" ordered="false"
+          upperBound="-1" eType="#//Multidimensional/Dimension"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="composite" ordered="false"
+          upperBound="-1" eType="#//Multidimensional/Dimension"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="memberSet" ordered="false"
+          upperBound="-1" eType="#//Multidimensional/MemberSet" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="schema" ordered="false"
+          unique="false" lowerBound="1" eType="#//Multidimensional/Schema"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="DimensionedObject" eSuperTypes="#//Core/Attribute">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimension" ordered="false"
+          upperBound="-1" eType="#//Multidimensional/Dimension"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="schema" ordered="false"
+          unique="false" lowerBound="1" eType="#//Multidimensional/Schema"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Member" eSuperTypes="#//Instance_/Object"/>
+    <eClassifiers xsi:type="ecore:EClass" name="MemberSet" eSuperTypes="#//Instance_/Extent">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimension" ordered="false"
+          unique="false" lowerBound="1" eType="#//Multidimensional/Dimension"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="MemberValue" eSuperTypes="#//Instance_/DataValue"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Schema" eSuperTypes="#//Core/Package">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimensionedObject" ordered="false"
+          upperBound="-1" eType="#//Multidimensional/DimensionedObject" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimension" ordered="false"
+          upperBound="-1" eType="#//Multidimensional/Dimension" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_Multidimensional_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Dimension" upperBound="-1"
+          eType="#//Multidimensional/Dimension" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="DimensionedObject" upperBound="-1"
+          eType="#//Multidimensional/DimensionedObject" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Member" upperBound="-1"
+          eType="#//Multidimensional/Member" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="MemberSet" upperBound="-1"
+          eType="#//Multidimensional/MemberSet" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="MemberValue" upperBound="-1"
+          eType="#//Multidimensional/MemberValue" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Schema" upperBound="-1"
+          eType="#//Multidimensional/Schema" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="XML" nsURI="XML" nsPrefix="XML">
+    <eClassifiers xsi:type="ecore:EClass" name="Schema" eSuperTypes="#//Core/Package">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="version" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="xmlNamespace" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="elementType" ordered="false"
+          upperBound="-1" eType="#//Core/ModelElement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ElementType" eSuperTypes="#//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="schema" ordered="false"
+          unique="false" eType="#//Core/Namespace"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" upperBound="-1"
+          eType="#//Core/Feature" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="content" ordered="false"
+          unique="false" eType="#//XML/Content"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Attribute" eSuperTypes="#//Core/Attribute">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="defaultKind" ordered="false"
+          unique="false" lowerBound="1" eType="#//XML/AttributeDefault"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="elementType" ordered="false"
+          unique="false" eType="#//Core/Classifier"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Content" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#//XML/ContentType"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="occurrence" ordered="false"
+          unique="false" lowerBound="1" eType="#//XML/OccurrenceType"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="elementType" ordered="false"
+          upperBound="-1" eType="#//XML/ElementType"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ownedElementType" ordered="false"
+          upperBound="-1" eType="#//XML/ElementTypeReference"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ElementContent" eSuperTypes="#//XML/Content">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="order" ordered="false"
+          unique="false" lowerBound="1" eType="#//XML/ElementOrderType"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ownedContent" ordered="false"
+          upperBound="-1" eType="#//XML/ElementContent"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ownerContent" ordered="false"
+          upperBound="-1" eType="#//XML/ElementContent"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="MixedContent" eSuperTypes="#//XML/Content">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="text" ordered="false"
+          unique="false" lowerBound="1" eType="#//XML/Text" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="AttributeDefault">
+      <eLiterals name="xml_required" value="1"/>
+      <eLiterals name="xml_implied" value="2"/>
+      <eLiterals name="xml_default" value="3"/>
+      <eLiterals name="xml_fixed" value="4"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ContentType">
+      <eLiterals name="xml_empty" value="1"/>
+      <eLiterals name="xml_any" value="2"/>
+      <eLiterals name="xml_mixed" value="3"/>
+      <eLiterals name="xml_element" value="4"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="OccurrenceType">
+      <eLiterals name="xml_one" value="1"/>
+      <eLiterals name="xml_zeroOrOne" value="2"/>
+      <eLiterals name="xml_zeroOrMore" value="3"/>
+      <eLiterals name="xml_oneOrMore" value="4"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ElementOrderType">
+      <eLiterals name="xml_choice" value="1"/>
+      <eLiterals name="xml_sequence" value="2"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ElementTypeReference" eSuperTypes="#//Core/Attribute">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="occurrence" ordered="false"
+          unique="false" lowerBound="1" eType="#//XML/OccurrenceType"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ownerContent" ordered="false"
+          upperBound="-1" eType="#//XML/Content"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Text" eSuperTypes="#//Core/Attribute">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ownerContent" ordered="false"
+          unique="false" lowerBound="1" eType="#//XML/MixedContent"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Element" eSuperTypes="#//Instance_/Object"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Document" eSuperTypes="#//Instance_/Extent"/>
+    <eClassifiers xsi:type="ecore:EClass" name="_XML_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Schema" upperBound="-1"
+          eType="#//XML/Schema" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ElementType" upperBound="-1"
+          eType="#//XML/ElementType" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Attribute" upperBound="-1"
+          eType="#//XML/Attribute" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Content" upperBound="-1"
+          eType="#//XML/Content" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ElementContent" upperBound="-1"
+          eType="#//XML/ElementContent" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="MixedContent" upperBound="-1"
+          eType="#//XML/MixedContent" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ElementTypeReference"
+          upperBound="-1" eType="#//XML/ElementTypeReference" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Text" upperBound="-1"
+          eType="#//XML/Text" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Element" upperBound="-1"
+          eType="#//XML/Element" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Document" upperBound="-1"
+          eType="#//XML/Document" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="Transformation_" nsURI="Transformation" nsPrefix="Transformation">
+    <eClassifiers xsi:type="ecore:EClass" name="Transformation" eSuperTypes="#//Core/Namespace">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="function" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/ProcedureExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="functionDescription"
+          ordered="false" unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isPrimary" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="source" ordered="false"
+          upperBound="-1" eType="#//Transformation_/DataObjectSet"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="target" ordered="false"
+          upperBound="-1" eType="#//Transformation_/DataObjectSet"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="use" ordered="false"
+          upperBound="-1" eType="#//Core/Dependency"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="DataObjectSet" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="element" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/ModelElement"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="sourceTransformation"
+          ordered="false" upperBound="-1" eType="#//Transformation_/Transformation"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="targetTransformation"
+          ordered="false" upperBound="-1" eType="#//Transformation_/Transformation"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TransformationTask" eSuperTypes="#//SoftwareDeployment/Component">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="transformation" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Transformation_/Transformation"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="inverseTask" ordered="false"
+          upperBound="-1" eType="#//Transformation_/TransformationTask"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="originalTask" ordered="false"
+          upperBound="-1" eType="#//Transformation_/TransformationTask"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TransformationStep" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="task" ordered="false"
+          unique="false" lowerBound="1" eType="#//Transformation_/TransformationTask"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="activity" ordered="false"
+          unique="false" eType="#//Core/Namespace"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="precedence" ordered="false"
+          upperBound="-1" eType="#//Core/Constraint"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="precedingStep" ordered="false"
+          upperBound="-1" eType="#//Core/Dependency"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="succeedingStep" ordered="false"
+          upperBound="-1" eType="#//Core/Dependency"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TransformationActivity" eSuperTypes="#//Core/Subsystem">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="creationDate" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="step" ordered="false"
+          upperBound="-1" eType="#//Core/ModelElement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="PrecedenceConstraint" eSuperTypes="#//Core/Constraint"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TransformationUse" eSuperTypes="#//Core/Dependency">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="transformation" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/ModelElement"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="operation" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/ModelElement"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TransformationMap" eSuperTypes="#//Transformation_/Transformation">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="classifierMap" ordered="false"
+          upperBound="-1" eType="#//Core/ModelElement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TransformationTree" eSuperTypes="#//Transformation_/Transformation">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#//Transformation_/TreeType"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="body" ordered="false"
+          unique="false" lowerBound="1" eType="#//Expressions/ExpressionNode" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ClassifierMap" eSuperTypes="#//Core/Namespace">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="function" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/ProcedureExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="functionDescription"
+          ordered="false" unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="source" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/Classifier"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="target" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/Classifier"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="transformationMap" ordered="false"
+          unique="false" eType="#//Core/Namespace"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="featureMap" ordered="false"
+          upperBound="-1" eType="#//Transformation_/FeatureMap" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cfMap" ordered="false"
+          upperBound="-1" eType="#//Transformation_/ClassifierFeatureMap" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="FeatureMap" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="function" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/ProcedureExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="functionDescription"
+          ordered="false" unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="source" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/Feature"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="target" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/Feature"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="classifierMap" ordered="false"
+          unique="false" eType="#//Transformation_/ClassifierMap"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="TreeType">
+      <eLiterals name="tfm_unary" value="1"/>
+      <eLiterals name="tfm_binary" value="2"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="StepPrecedence" eSuperTypes="#//Core/Dependency">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="precedingStep" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/ModelElement"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="succeedingStep" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/ModelElement"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ClassifierFeatureMap" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="function" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/ProcedureExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="functionDescription"
+          ordered="false" unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="classifierToFeature"
+          ordered="false" unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="classifier" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/Classifier"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="feature" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/Feature"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="classifierMap" ordered="false"
+          unique="false" eType="#//Transformation_/ClassifierMap"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_Transformation_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Transformation" upperBound="-1"
+          eType="#//Transformation_/Transformation" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="DataObjectSet" upperBound="-1"
+          eType="#//Transformation_/DataObjectSet" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="TransformationTask" upperBound="-1"
+          eType="#//Transformation_/TransformationTask" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="TransformationStep" upperBound="-1"
+          eType="#//Transformation_/TransformationStep" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="TransformationActivity"
+          upperBound="-1" eType="#//Transformation_/TransformationActivity" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PrecedenceConstraint"
+          upperBound="-1" eType="#//Transformation_/PrecedenceConstraint" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="TransformationUse" upperBound="-1"
+          eType="#//Transformation_/TransformationUse" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="TransformationMap" upperBound="-1"
+          eType="#//Transformation_/TransformationMap" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="TransformationTree" upperBound="-1"
+          eType="#//Transformation_/TransformationTree" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ClassifierMap" upperBound="-1"
+          eType="#//Transformation_/ClassifierMap" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="FeatureMap" upperBound="-1"
+          eType="#//Transformation_/FeatureMap" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="StepPrecedence" upperBound="-1"
+          eType="#//Transformation_/StepPrecedence" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ClassifierFeatureMap"
+          upperBound="-1" eType="#//Transformation_/ClassifierFeatureMap" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="Olap" nsURI="Olap" nsPrefix="Olap">
+    <eClassifiers xsi:type="ecore:EClass" name="ContentMap" eSuperTypes="#//Transformation_/TransformationMap">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cubeDeployment" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/CubeDeployment"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Cube" eSuperTypes="#//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isVirtual" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cubeDimensionAssociation"
+          ordered="false" upperBound="-1" eType="#//Olap/CubeDimensionAssociation"
+          containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cubeRegion" ordered="false"
+          upperBound="-1" eType="#//Olap/CubeRegion" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="schema" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/Schema"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="CubeDeployment" eSuperTypes="#//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cubeRegion" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/CubeRegion"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="deploymentGroup" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/DeploymentGroup"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="contentMap" ordered="false"
+          upperBound="-1" eType="#//Olap/ContentMap" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="CubeDimensionAssociation" eSuperTypes="#//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimension" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/Dimension"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cube" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/Cube"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="calcHierarchy" ordered="false"
+          unique="false" eType="#//Olap/Hierarchy"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="CubeRegion" eSuperTypes="#//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isReadOnly" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isFullyRealized" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="memberSelectionGroup"
+          ordered="false" upperBound="-1" eType="#//Olap/MemberSelectionGroup" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cube" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/Cube"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cubeDeployment" upperBound="-1"
+          eType="#//Olap/CubeDeployment" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="DeploymentGroup" eSuperTypes="#//Core/Package">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="schema" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/Schema"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cubeDeployment" ordered="false"
+          upperBound="-1" eType="#//Olap/CubeDeployment"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimensionDeployment"
+          ordered="false" upperBound="-1" eType="#//Olap/DimensionDeployment"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Dimension" eSuperTypes="#//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isTime" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isMeasure" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="hierarchy" ordered="false"
+          upperBound="-1" eType="#//Olap/Hierarchy" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="memberSelection" ordered="false"
+          upperBound="-1" eType="#//Olap/MemberSelection" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cubeDimensionAssociation"
+          ordered="false" upperBound="-1" eType="#//Olap/CubeDimensionAssociation"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="displayDefault" ordered="false"
+          unique="false" eType="#//Olap/Hierarchy"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="schema" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/Schema"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="DimensionDeployment" eSuperTypes="#//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="hierarchyLevelAssociation"
+          ordered="false" unique="false" eType="#//Olap/HierarchyLevelAssociation"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="valueBasedHierarchy"
+          ordered="false" unique="false" eType="#//Olap/ValueBasedHierarchy"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="structureMap" ordered="false"
+          upperBound="-1" eType="#//Olap/StructureMap" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="listOfValues" ordered="false"
+          unique="false" eType="#//Olap/StructureMap"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="immediateParent" ordered="false"
+          unique="false" eType="#//Olap/StructureMap"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="deploymentGroup" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/DeploymentGroup"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Hierarchy" abstract="true" eSuperTypes="#//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimension" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/Dimension"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cubeDimensionAssociation"
+          ordered="false" upperBound="-1" eType="#//Olap/CubeDimensionAssociation"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="defaultedDimension" ordered="false"
+          unique="false" eType="#//Olap/Dimension"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="hierarchyMemberSelectionGroup"
+          ordered="false" upperBound="-1" eType="#//Olap/HierarchyMemberSelectionGroup"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="HierarchyLevelAssociation" eSuperTypes="#//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="levelBasedHierarchy"
+          ordered="false" unique="false" lowerBound="1" eType="#//Olap/LevelBasedHierarchy"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="currentLevel" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/Level"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimensionDeployment"
+          upperBound="-1" eType="#//Olap/DimensionDeployment" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="LevelBasedHierarchy" eSuperTypes="#//Olap/Hierarchy">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="hierarchyLevelAssociation"
+          upperBound="-1" eType="#//Olap/HierarchyLevelAssociation" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="MemberSelectionGroup" eSuperTypes="#//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="memberSelection" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Olap/MemberSelection"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cubeRegion" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/CubeRegion"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="MemberSelection" eSuperTypes="#//Core/Class">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimension" ordered="false"
+          unique="false" lowerBound="1" eType="#//Olap/Dimension"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="memberSelectionGroup"
+          ordered="false" upperBound="-1" eType="#//Olap/MemberSelectionGroup"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Schema" eSuperTypes="#//Core/Package">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cube" ordered="false"
+          upperBound="-1" eType="#//Olap/Cube" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimension" ordered="false"
+          upperBound="-1" eType="#//Olap/Dimension" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="deploymentGroup" ordered="false"
+          upperBound="-1" eType="#//Olap/DeploymentGroup" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ValueBasedHierarchy" eSuperTypes="#//Olap/Hierarchy">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimensionDeployment"
+          upperBound="-1" eType="#//Olap/DimensionDeployment" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Level" eSuperTypes="#//Olap/MemberSelection">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="hierarchyLevelAssociation"
+          ordered="false" upperBound="-1" eType="#//Olap/HierarchyLevelAssociation"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="CodedLevel" eSuperTypes="#//Olap/Level">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="encoding" ordered="false"
+          unique="false" lowerBound="1" eType="#//Expressions/ExpressionNode" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Measure" eSuperTypes="#//Core/Attribute"/>
+    <eClassifiers xsi:type="ecore:EClass" name="StructureMap" eSuperTypes="#//Transformation_/TransformationMap">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimensionDeployment"
+          ordered="false" unique="false" lowerBound="1" eType="#//Olap/DimensionDeployment"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimensionDeploymentLV"
+          ordered="false" unique="false" eType="#//Olap/DimensionDeployment"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dimensionDeploymentIP"
+          ordered="false" unique="false" eType="#//Olap/DimensionDeployment"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="HierarchyMemberSelectionGroup" eSuperTypes="#//Olap/MemberSelectionGroup">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="hierarchy" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Olap/Hierarchy"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_Olap_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ContentMap" upperBound="-1"
+          eType="#//Olap/ContentMap" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Cube" upperBound="-1"
+          eType="#//Olap/Cube" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CubeDeployment" upperBound="-1"
+          eType="#//Olap/CubeDeployment" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CubeDimensionAssociation"
+          upperBound="-1" eType="#//Olap/CubeDimensionAssociation" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CubeRegion" upperBound="-1"
+          eType="#//Olap/CubeRegion" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="DeploymentGroup" upperBound="-1"
+          eType="#//Olap/DeploymentGroup" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Dimension" upperBound="-1"
+          eType="#//Olap/Dimension" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="DimensionDeployment"
+          upperBound="-1" eType="#//Olap/DimensionDeployment" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Hierarchy" upperBound="-1"
+          eType="#//Olap/Hierarchy" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="HierarchyLevelAssociation"
+          upperBound="-1" eType="#//Olap/HierarchyLevelAssociation" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="LevelBasedHierarchy"
+          upperBound="-1" eType="#//Olap/LevelBasedHierarchy" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="MemberSelectionGroup"
+          upperBound="-1" eType="#//Olap/MemberSelectionGroup" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="MemberSelection" upperBound="-1"
+          eType="#//Olap/MemberSelection" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Schema" upperBound="-1"
+          eType="#//Olap/Schema" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ValueBasedHierarchy"
+          upperBound="-1" eType="#//Olap/ValueBasedHierarchy" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Level" upperBound="-1"
+          eType="#//Olap/Level" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CodedLevel" upperBound="-1"
+          eType="#//Olap/CodedLevel" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Measure" upperBound="-1"
+          eType="#//Olap/Measure" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="StructureMap" upperBound="-1"
+          eType="#//Olap/StructureMap" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="HierarchyMemberSelectionGroup"
+          upperBound="-1" eType="#//Olap/HierarchyMemberSelectionGroup" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="MiningCore" nsURI="MiningCore" nsPrefix="MiningCore">
+    <eClassifiers xsi:type="ecore:EClass" name="_MiningCore_Ecore_Container"/>
+    <eSubpackages name="MiningData" nsURI="MiningData" nsPrefix="MiningData">
+      <eClassifiers xsi:type="ecore:EClass" name="AttributeAssignment" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="orderIdAttribute" upperBound="-1"
+            eType="#//Core/Attribute"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="logicalAttribute" ordered="false"
+            lowerBound="1" upperBound="-1" eType="#//MiningCore/MiningData/MiningAttribute"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="AttributeAssignmentSet" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="assignment" ordered="false"
+            lowerBound="1" upperBound="-1" eType="#//MiningCore/MiningData/AttributeAssignment"
+            containment="true"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="AttributeSelectionFunction">
+        <eLiterals name="isNotNull" value="1"/>
+        <eLiterals name="isNull" value="2"/>
+        <eLiterals name="isOne" value="3"/>
+        <eLiterals name="isZero" value="4"/>
+        <eLiterals name="isTrue" value="5"/>
+        <eLiterals name="isFalse" value="6"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="AttributeType">
+        <eLiterals name="categorical" value="1"/>
+        <eLiterals name="ordinal" value="2"/>
+        <eLiterals name="numerical" value="3"/>
+        <eLiterals name="notSpecified" value="4"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="AttributeUsage" eSuperTypes="#//Core/Feature">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="usage" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/UsageOption"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="weight" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" ordered="false"
+            lowerBound="1" upperBound="-1" eType="#//MiningCore/MiningData/LogicalAttribute"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="suppressDiscretization"
+            ordered="false" unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="suppressNormalization"
+            ordered="false" unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="AttributeUsageSet" eSuperTypes="#//Core/Class"/>
+      <eClassifiers xsi:type="ecore:EClass" name="CategoricalAttributeProperties"
+          eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="category" upperBound="-1"
+            eType="#//MiningCore/MiningData/Category" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="taxonomy" ordered="false"
+            unique="false" eType="#//MiningCore/MiningData/CategoryTaxonomy"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="DirectAttributeAssignment" eSuperTypes="#//MiningCore/MiningData/AttributeAssignment">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Attribute"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="LogicalAttribute" eSuperTypes="#//MiningCore/MiningData/MiningAttribute">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="isSetValued" ordered="false"
+            unique="false" eType="#//Core/Boolean"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="categoricalProperties"
+            ordered="false" unique="false" eType="#//MiningCore/MiningData/CategoricalAttributeProperties"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="numericalProperties"
+            ordered="false" unique="false" eType="#//MiningCore/MiningData/NumericalAttributeProperties"
+            containment="true"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="LogicalData" eSuperTypes="#//Core/Class"/>
+      <eClassifiers xsi:type="ecore:EClass" name="MiningAttribute" abstract="true"
+          eSuperTypes="#//Core/Attribute">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="displayName" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/String"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="attributeType" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/AttributeType"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="NumericalAttributeProperties" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="lowerBound" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="upperBound" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="isDiscrete" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="isCyclic" ordered="false"
+            unique="false" eType="#//Core/Boolean"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="anchor" ordered="false"
+            unique="false" eType="#//MiningCore/MiningData/Double"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="cycleBegin" ordered="false"
+            unique="false" eType="#//MiningCore/MiningData/Double"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="cycleEnd" ordered="false"
+            unique="false" eType="#//MiningCore/MiningData/Double"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="discreteStepSize" ordered="false"
+            unique="false" eType="#//MiningCore/MiningData/Double"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="OrderType">
+        <eLiterals name="asIs" value="1"/>
+        <eLiterals name="alphabetical" value="2"/>
+        <eLiterals name="numeric" value="3"/>
+        <eLiterals name="date" value="4"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="OrdinalAttributeProperties" eSuperTypes="#//MiningCore/MiningData/CategoricalAttributeProperties">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="orderType" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/OrderType"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="isCyclic" ordered="false"
+            unique="false" eType="#//Core/Boolean"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="PhysicalData" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="source" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Class"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="PivotAttributeAssignment" eSuperTypes="#//MiningCore/MiningData/AttributeAssignment">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="setIdAttribute" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Attribute"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="nameAttribute" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Attribute"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="valueAttribute" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Attribute"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="ReversePivotAttributeAssignment"
+          eSuperTypes="#//MiningCore/MiningData/AttributeAssignment">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="selectorAttribute"
+            ordered="false" lowerBound="1" upperBound="-1" eType="#//Core/Attribute"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="attributeSelectionFunction"
+            ordered="false" unique="false" lowerBound="1" eType="#//MiningCore/MiningData/AttributeSelectionFunction"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="valueSelectionFunction"
+            ordered="false" unique="false" lowerBound="1" eType="#//MiningCore/MiningData/ValueSelectionFunction"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="SetAttributeAssignment" eSuperTypes="#//MiningCore/MiningData/AttributeAssignment">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="setIdAttribute" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Attribute"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="memberAttribute" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Attribute"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="UsageOption">
+        <eLiterals name="active" value="1"/>
+        <eLiterals name="supplementary" value="2"/>
+        <eLiterals name="target" value="3"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="ValueSelectionFunction">
+        <eLiterals name="vsf_value" value="1"/>
+        <eLiterals name="vsf_attribute" value="2"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="Category" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Any"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="isNullCategory" ordered="false"
+            unique="false" eType="#//Core/Boolean"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="displayName" ordered="false"
+            unique="false" eType="#//Core/String"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="property" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/CategoryProperty"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="prior" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="CategoryMap" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="isMultiLevel" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="isItemMap" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="CategoryMapObject" eSuperTypes="#//Core/ModelElement #//MiningCore/MiningData/CategoryMap">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="entry" ordered="false"
+            upperBound="-1" eType="#//MiningCore/MiningData/CategoryMapObjectEntry"
+            containment="true"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="CategoryMapObjectEntry" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="child" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Category"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="parent" ordered="false"
+            lowerBound="1" upperBound="-1" eType="#//MiningCore/MiningData/Category"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="graphId" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Any"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="CategoryMapTable" eSuperTypes="#//Core/ModelElement #//MiningCore/MiningData/CategoryMap">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="childAttribute" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Attribute"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="parentAttribute" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Attribute"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="graphIdAttribute" ordered="false"
+            unique="false" eType="#//Core/Attribute"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="table" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Class"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="CategoryMatrix" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="diagonalDefault" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="offDiagonalDefault"
+            ordered="false" unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="kind" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/MatrixProperty"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="category" ordered="false"
+            lowerBound="2" upperBound="-1" eType="#//MiningCore/MiningData/Category"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="CategoryMatrixEntry" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="rowIndex" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Category"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="columnIndex" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Category"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="CategoryMatrixObject" eSuperTypes="#//MiningCore/MiningData/CategoryMatrix">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="entry" ordered="false"
+            upperBound="-1" eType="#//MiningCore/MiningData/CategoryMatrixEntry" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="CategoryMatrixTable" eSuperTypes="#//MiningCore/MiningData/CategoryMatrix">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="rowAttribute" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Attribute"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="columnAttribute" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Attribute"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="valueAttribute" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Attribute"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="source" ordered="false"
+            upperBound="-1" eType="#//Core/Class"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="CategoryProperty">
+        <eLiterals name="valid" value="1"/>
+        <eLiterals name="invalid" value="2"/>
+        <eLiterals name="missing" value="3"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="CategoryTaxonomy" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="categoryMap" ordered="false"
+            upperBound="-1" eType="#//MiningCore/MiningData/CategoryMap" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="rootCategory" ordered="false"
+            upperBound="-1" eType="#//MiningCore/MiningData/Category"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="MatrixProperty">
+        <eLiterals name="mp_symmetric" value="1"/>
+        <eLiterals name="mp_diagonal" value="2"/>
+        <eLiterals name="mp_any" value="3"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EDataType" name="Double" instanceClassName="java.lang.Double"/>
+      <eClassifiers xsi:type="ecore:EClass" name="_MiningData_Ecore_Container">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="AttributeAssignment"
+            upperBound="-1" eType="#//MiningCore/MiningData/AttributeAssignment" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="AttributeAssignmentSet"
+            upperBound="-1" eType="#//MiningCore/MiningData/AttributeAssignmentSet"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="AttributeUsage" upperBound="-1"
+            eType="#//MiningCore/MiningData/AttributeUsage" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="AttributeUsageSet"
+            upperBound="-1" eType="#//MiningCore/MiningData/AttributeUsageSet" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CategoricalAttributeProperties"
+            upperBound="-1" eType="#//MiningCore/MiningData/CategoricalAttributeProperties"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="DirectAttributeAssignment"
+            upperBound="-1" eType="#//MiningCore/MiningData/DirectAttributeAssignment"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="LogicalAttribute" upperBound="-1"
+            eType="#//MiningCore/MiningData/LogicalAttribute" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="LogicalData" upperBound="-1"
+            eType="#//MiningCore/MiningData/LogicalData" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="MiningAttribute" upperBound="-1"
+            eType="#//MiningCore/MiningData/MiningAttribute" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="NumericalAttributeProperties"
+            upperBound="-1" eType="#//MiningCore/MiningData/NumericalAttributeProperties"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="OrdinalAttributeProperties"
+            upperBound="-1" eType="#//MiningCore/MiningData/OrdinalAttributeProperties"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="PhysicalData" upperBound="-1"
+            eType="#//MiningCore/MiningData/PhysicalData" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="PivotAttributeAssignment"
+            upperBound="-1" eType="#//MiningCore/MiningData/PivotAttributeAssignment"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="ReversePivotAttributeAssignment"
+            upperBound="-1" eType="#//MiningCore/MiningData/ReversePivotAttributeAssignment"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="SetAttributeAssignment"
+            upperBound="-1" eType="#//MiningCore/MiningData/SetAttributeAssignment"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="Category" upperBound="-1"
+            eType="#//MiningCore/MiningData/Category" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CategoryMap" upperBound="-1"
+            eType="#//MiningCore/MiningData/CategoryMap" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CategoryMapObject"
+            upperBound="-1" eType="#//MiningCore/MiningData/CategoryMapObject" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CategoryMapObjectEntry"
+            upperBound="-1" eType="#//MiningCore/MiningData/CategoryMapObjectEntry"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CategoryMapTable" upperBound="-1"
+            eType="#//MiningCore/MiningData/CategoryMapTable" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CategoryMatrix" upperBound="-1"
+            eType="#//MiningCore/MiningData/CategoryMatrix" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CategoryMatrixEntry"
+            upperBound="-1" eType="#//MiningCore/MiningData/CategoryMatrixEntry" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CategoryMatrixObject"
+            upperBound="-1" eType="#//MiningCore/MiningData/CategoryMatrixObject"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CategoryMatrixTable"
+            upperBound="-1" eType="#//MiningCore/MiningData/CategoryMatrixTable" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CategoryTaxonomy" upperBound="-1"
+            eType="#//MiningCore/MiningData/CategoryTaxonomy" containment="true"/>
+      </eClassifiers>
+    </eSubpackages>
+    <eSubpackages name="MiningFunctionSettings" nsURI="MiningFunctionSettings" nsPrefix="MiningFunctionSettings">
+      <eClassifiers xsi:type="ecore:EClass" name="MiningAlgorithmSettings" abstract="true"
+          eSuperTypes="#//Core/ModelElement"/>
+      <eClassifiers xsi:type="ecore:EClass" name="MiningFunctionSettings" abstract="true"
+          eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="algorithmSettings"
+            ordered="false" unique="false" eType="#//MiningCore/MiningFunctionSettings/MiningAlgorithmSettings"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="desiredExecutionTimeInMinutes"
+            ordered="false" unique="false" lowerBound="1" eType="#//Core/Integer"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="attributeUsageSet"
+            ordered="false" unique="false" eType="#//MiningCore/MiningData/AttributeUsageSet"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="logicalData" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/LogicalData"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="_MiningFunctionSettings_Ecore_Container">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="MiningAlgorithmSettings"
+            upperBound="-1" eType="#//MiningCore/MiningFunctionSettings/MiningAlgorithmSettings"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="MiningFunctionSettings"
+            upperBound="-1" eType="#//MiningCore/MiningFunctionSettings/MiningFunctionSettings"
+            containment="true"/>
+      </eClassifiers>
+    </eSubpackages>
+    <eSubpackages name="MiningModel" nsURI="MiningModel" nsPrefix="MiningModel">
+      <eClassifiers xsi:type="ecore:EEnum" name="MiningFunction">
+        <eLiterals name="classification" value="1"/>
+        <eLiterals name="regression" value="2"/>
+        <eLiterals name="clustering" value="3"/>
+        <eLiterals name="associationRules" value="4"/>
+        <eLiterals name="attributeImportance" value="5"/>
+        <eLiterals name="sequenceAnalysis" value="6"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="MiningModel" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="function" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningModel/MiningFunction"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="algorithmName" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/String"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="settings" ordered="false"
+            unique="false" eType="#//MiningCore/MiningFunctionSettings/MiningFunctionSettings"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="modelSignature" ordered="false"
+            unique="false" eType="#//MiningCore/MiningModel/ModelSignature" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="modelLocation" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Class"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="keyAttribute" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Attribute"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="keyValue" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Any"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="ModelSignature" eSuperTypes="#//Core/Class"/>
+      <eClassifiers xsi:type="ecore:EClass" name="SignatureAttribute" eSuperTypes="#//MiningCore/MiningData/MiningAttribute">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="usageOption" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/UsageOption"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="_MiningModel_Ecore_Container">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="MiningModel" upperBound="-1"
+            eType="#//MiningCore/MiningModel/MiningModel" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="ModelSignature" upperBound="-1"
+            eType="#//MiningCore/MiningModel/ModelSignature" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="SignatureAttribute"
+            upperBound="-1" eType="#//MiningCore/MiningModel/SignatureAttribute" containment="true"/>
+      </eClassifiers>
+    </eSubpackages>
+    <eSubpackages name="MiningResult" nsURI="MiningResult" nsPrefix="MiningResult">
+      <eClassifiers xsi:type="ecore:EClass" name="MiningResult" abstract="true" eSuperTypes="#//Core/ModelElement"/>
+      <eClassifiers xsi:type="ecore:EClass" name="_MiningResult_Ecore_Container">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="MiningResult" upperBound="-1"
+            eType="#//MiningCore/MiningResult/MiningResult" containment="true"/>
+      </eClassifiers>
+    </eSubpackages>
+    <eSubpackages name="MiningTask" nsURI="MiningTask" nsPrefix="MiningTask">
+      <eClassifiers xsi:type="ecore:EClass" name="ApplyContentItem" abstract="true"
+          eSuperTypes="#//MiningCore/MiningTask/ApplyOutputItem">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="topNthIndex" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Integer"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="ApplyOutputItem" eSuperTypes="#//MiningCore/MiningData/MiningAttribute"/>
+      <eClassifiers xsi:type="ecore:EEnum" name="ApplyOutputOption">
+        <eLiterals name="appendToExisting" value="1"/>
+        <eLiterals name="createNew" value="2"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="ApplyProbabilityItem" eSuperTypes="#//MiningCore/MiningTask/ApplyContentItem"/>
+      <eClassifiers xsi:type="ecore:EClass" name="ApplyRuleIdItem" eSuperTypes="#//MiningCore/MiningTask/ApplyContentItem"/>
+      <eClassifiers xsi:type="ecore:EClass" name="ApplyScoreItem" eSuperTypes="#//MiningCore/MiningTask/ApplyContentItem"/>
+      <eClassifiers xsi:type="ecore:EClass" name="ApplySourceItem" eSuperTypes="#//MiningCore/MiningTask/ApplyOutputItem"/>
+      <eClassifiers xsi:type="ecore:EClass" name="MiningApplyOutput" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="item" lowerBound="1"
+            upperBound="-1" eType="#//MiningCore/MiningTask/ApplyOutputItem" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="MiningApplyTask" eSuperTypes="#//MiningCore/MiningTask/MiningTask">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="applyOutput" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningTask/MiningApplyOutput"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="outputAssignment" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/AttributeAssignmentSet"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="outputOption" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningTask/ApplyOutputOption"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="MiningBuildTask" eSuperTypes="#//MiningCore/MiningTask/MiningTask">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="miningSettings" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningFunctionSettings/MiningFunctionSettings"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="settingsAssignment"
+            ordered="false" unique="false" eType="#//MiningCore/MiningData/AttributeAssignmentSet"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="validationData" ordered="false"
+            unique="false" eType="#//MiningCore/MiningData/PhysicalData"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="validationAssignment"
+            ordered="false" unique="false" eType="#//MiningCore/MiningData/AttributeAssignmentSet"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="resultModel" ordered="false"
+            unique="false" eType="#//MiningCore/MiningModel/MiningModel"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="MiningTask" abstract="true" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="inputData" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningData/PhysicalData"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="modelAssignment" ordered="false"
+            unique="false" eType="#//MiningCore/MiningData/AttributeAssignmentSet"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="inputModel" ordered="false"
+            unique="false" eType="#//MiningCore/MiningModel/MiningModel"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="MiningTransformation" eSuperTypes="#//Transformation_/Transformation">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="procedure" ordered="false"
+            unique="false" lowerBound="1" eType="#//MiningCore/MiningTask/MiningTask"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="_MiningTask_Ecore_Container">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="ApplyContentItem" upperBound="-1"
+            eType="#//MiningCore/MiningTask/ApplyContentItem" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="ApplyOutputItem" upperBound="-1"
+            eType="#//MiningCore/MiningTask/ApplyOutputItem" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="ApplyProbabilityItem"
+            upperBound="-1" eType="#//MiningCore/MiningTask/ApplyProbabilityItem"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="ApplyRuleIdItem" upperBound="-1"
+            eType="#//MiningCore/MiningTask/ApplyRuleIdItem" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="ApplyScoreItem" upperBound="-1"
+            eType="#//MiningCore/MiningTask/ApplyScoreItem" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="ApplySourceItem" upperBound="-1"
+            eType="#//MiningCore/MiningTask/ApplySourceItem" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="MiningApplyOutput"
+            upperBound="-1" eType="#//MiningCore/MiningTask/MiningApplyOutput" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="MiningApplyTask" upperBound="-1"
+            eType="#//MiningCore/MiningTask/MiningApplyTask" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="MiningBuildTask" upperBound="-1"
+            eType="#//MiningCore/MiningTask/MiningBuildTask" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="MiningTask" upperBound="-1"
+            eType="#//MiningCore/MiningTask/MiningTask" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="MiningTransformation"
+            upperBound="-1" eType="#//MiningCore/MiningTask/MiningTransformation"
+            containment="true"/>
+      </eClassifiers>
+    </eSubpackages>
+    <eSubpackages name="EntryPoint" nsURI="EntryPoint" nsPrefix="EntryPoint">
+      <eClassifiers xsi:type="ecore:EClass" name="AuxiliaryObject" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="attributeAssignmentSet"
+            ordered="false" upperBound="-1" eType="#//MiningCore/MiningData/AttributeAssignmentSet"
+            containment="true"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="Catalog" eSuperTypes="#//Core/Package">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="schema" ordered="false"
+            upperBound="-1" eType="#//MiningCore/EntryPoint/Schema" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="Schema" eSuperTypes="#//Core/Namespace">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="logicalData" ordered="false"
+            upperBound="-1" eType="#//MiningCore/MiningData/LogicalData" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="categoryMatrix" ordered="false"
+            upperBound="-1" eType="#//MiningCore/MiningData/CategoryMatrix" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="miningModel" ordered="false"
+            upperBound="-1" eType="#//MiningCore/MiningModel/MiningModel" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="miningFunctionSettings"
+            ordered="false" upperBound="-1" eType="#//MiningCore/MiningFunctionSettings/MiningFunctionSettings"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="taxonomy" ordered="false"
+            upperBound="-1" eType="#//MiningCore/MiningData/CategoryTaxonomy" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="miningTask" ordered="false"
+            upperBound="-1" eType="#//MiningCore/MiningTask/MiningTask" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="result" ordered="false"
+            upperBound="-1" eType="#//MiningCore/MiningResult/MiningResult" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="auxObjects" ordered="false"
+            unique="false" eType="#//MiningCore/EntryPoint/AuxiliaryObject" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="_EntryPoint_Ecore_Container">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="AuxiliaryObject" upperBound="-1"
+            eType="#//MiningCore/EntryPoint/AuxiliaryObject" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="Catalog" upperBound="-1"
+            eType="#//MiningCore/EntryPoint/Catalog" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="Schema" upperBound="-1"
+            eType="#//MiningCore/EntryPoint/Schema" containment="true"/>
+      </eClassifiers>
+    </eSubpackages>
+  </eSubpackages>
+  <eSubpackages name="Clustering" nsURI="Clustering" nsPrefix="Clustering">
+    <eClassifiers xsi:type="ecore:EEnum" name="AggregationFunction">
+      <eLiterals name="euclidean" value="1"/>
+      <eLiterals name="squaredEuclidean" value="2"/>
+      <eLiterals name="chebychev" value="3"/>
+      <eLiterals name="cityBlock" value="4"/>
+      <eLiterals name="minkovski" value="5"/>
+      <eLiterals name="simpleMatching" value="6"/>
+      <eLiterals name="jaccard" value="7"/>
+      <eLiterals name="tanimoto" value="8"/>
+      <eLiterals name="binarySimilarity" value="9"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="AttributeComparisonFunction">
+      <eLiterals name="absDiff" value="1"/>
+      <eLiterals name="gaussSim" value="2"/>
+      <eLiterals name="delta" value="3"/>
+      <eLiterals name="equal" value="4"/>
+      <eLiterals name="table" value="5"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ClusteringAttributeUsage" eSuperTypes="#//MiningCore/MiningData/AttributeUsage">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="attributeComparisonFunction"
+          ordered="false" unique="false" eType="#//Clustering/AttributeComparisonFunction"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="similarityScale" ordered="false"
+          unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="comparisonMatrix" ordered="false"
+          unique="false" eType="#//MiningCore/MiningData/CategoryMatrix"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ClusteringFunctionSettings" eSuperTypes="#//MiningCore/MiningFunctionSettings/MiningFunctionSettings">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxNumberOfClusters"
+          ordered="false" unique="false" lowerBound="1" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="minClusterSize" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="aggregationFunction"
+          ordered="false" unique="false" lowerBound="1" eType="#//Clustering/AggregationFunction"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ClusteringModelCBasis">
+      <eLiterals name="centerBased" value="1"/>
+      <eLiterals name="probabilityBased" value="2"/>
+      <eLiterals name="partitionBased" value="3"/>
+      <eLiterals name="aggregationBased" value="4"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_Clustering_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ClusteringAttributeUsage"
+          upperBound="-1" eType="#//Clustering/ClusteringAttributeUsage" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ClusteringFunctionSettings"
+          upperBound="-1" eType="#//Clustering/ClusteringFunctionSettings" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="AssociationRules" nsURI="AssociationRules" nsPrefix="AssociationRules">
+    <eClassifiers xsi:type="ecore:EClass" name="AssociationRulesFunctionSettings"
+        eSuperTypes="#//AssociationRules/FrequentItemSetFunctionSettings">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="minimumConfidence" ordered="false"
+          unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="maximumRuleLength" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Integer"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="FrequentItemSetFunctionSettings" eSuperTypes="#//MiningCore/MiningFunctionSettings/MiningFunctionSettings">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="minimumSupport" ordered="false"
+          unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="exclusion" ordered="false"
+          upperBound="-1" eType="#//MiningCore/MiningData/Category"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="maximumSetSize" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Integer"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SequenceFunctionSettings" eSuperTypes="#//AssociationRules/FrequentItemSetFunctionSettings">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="windowSize" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Integer"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_AssociationRules_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="AssociationRulesFunctionSettings"
+          upperBound="-1" eType="#//AssociationRules/AssociationRulesFunctionSettings"
+          containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="FrequentItemSetFunctionSettings"
+          upperBound="-1" eType="#//AssociationRules/FrequentItemSetFunctionSettings"
+          containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="SequenceFunctionSettings"
+          upperBound="-1" eType="#//AssociationRules/SequenceFunctionSettings" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="Supervised" nsURI="Supervised" nsPrefix="Supervised">
+    <eClassifiers xsi:type="ecore:EClass" name="LiftAnalysisPoint" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="subsetOfRecords" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="aggregateTarget" ordered="false"
+          unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="LiftAnalysis" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="point" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Supervised/LiftAnalysisPoint" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="targetAttributeName"
+          ordered="false" unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="positiveTargetCategory"
+          ordered="false" lowerBound="1" upperBound="-1" eType="#//MiningCore/MiningData/Category"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="MiningTestTask" eSuperTypes="#//MiningCore/MiningTask/MiningTask">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="computeLift" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="positiveTargetCategory"
+          ordered="false" lowerBound="1" upperBound="-1" eType="#//MiningCore/MiningData/Category"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SupervisedFunctionSettings" eSuperTypes="#//MiningCore/MiningFunctionSettings/MiningFunctionSettings"/>
+    <eClassifiers xsi:type="ecore:EClass" name="MiningTestResult" eSuperTypes="#//MiningCore/MiningResult/MiningResult">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberOfTestRecords"
+          ordered="false" unique="false" lowerBound="1" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="liftAnalysis" ordered="false"
+          unique="false" eType="#//Supervised/LiftAnalysis" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_Supervised_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="LiftAnalysisPoint" upperBound="-1"
+          eType="#//Supervised/LiftAnalysisPoint" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="LiftAnalysis" upperBound="-1"
+          eType="#//Supervised/LiftAnalysis" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="MiningTestTask" upperBound="-1"
+          eType="#//Supervised/MiningTestTask" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="SupervisedFunctionSettings"
+          upperBound="-1" eType="#//Supervised/SupervisedFunctionSettings" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="MiningTestResult" upperBound="-1"
+          eType="#//Supervised/MiningTestResult" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="Classification" nsURI="Classification" nsPrefix="Classification">
+    <eClassifiers xsi:type="ecore:EClass" name="ApplyTargetValueItem" eSuperTypes="#//MiningCore/MiningTask/ApplyOutputItem">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="targetValue" ordered="false"
+          unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Category"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ClassificationAttributeUsage" eSuperTypes="#//MiningCore/MiningData/AttributeUsage">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="positiveCategory" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//MiningCore/MiningData/Category"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="priors" ordered="false"
+          unique="false" eType="#//Classification/PriorProbabilities" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ClassificationFunctionSettings" eSuperTypes="#//Supervised/SupervisedFunctionSettings">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="costMatrix" ordered="false"
+          unique="false" eType="#//MiningCore/MiningData/CategoryMatrix"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ClassificationTestResult" eSuperTypes="#//Supervised/MiningTestResult">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="confusionMatrix" ordered="false"
+          unique="false" eType="#//MiningCore/MiningData/CategoryMatrix" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="accuracy" ordered="false"
+          unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ClassificationTestTask" eSuperTypes="#//Supervised/MiningTestTask">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="testResult" ordered="false"
+          unique="false" lowerBound="1" eType="#//Classification/ClassificationTestResult"
+          containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="PriorProbabilities" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="prior" ordered="false"
+          upperBound="-1" eType="#//Classification/PriorProbabilitiesEntry" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="PriorProbabilitiesEntry" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="targetValue" ordered="false"
+          unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Category"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="priorProbability" ordered="false"
+          unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_Classification_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ApplyTargetValueItem"
+          upperBound="-1" eType="#//Classification/ApplyTargetValueItem" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ClassificationAttributeUsage"
+          upperBound="-1" eType="#//Classification/ClassificationAttributeUsage" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ClassificationFunctionSettings"
+          upperBound="-1" eType="#//Classification/ClassificationFunctionSettings"
+          containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ClassificationTestResult"
+          upperBound="-1" eType="#//Classification/ClassificationTestResult" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ClassificationTestTask"
+          upperBound="-1" eType="#//Classification/ClassificationTestTask" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PriorProbabilities" upperBound="-1"
+          eType="#//Classification/PriorProbabilities" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PriorProbabilitiesEntry"
+          upperBound="-1" eType="#//Classification/PriorProbabilitiesEntry" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="Approximation" nsURI="Approximation" nsPrefix="Approximation">
+    <eClassifiers xsi:type="ecore:EClass" name="ApproximationFunctionSettings" eSuperTypes="#//Supervised/SupervisedFunctionSettings">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="toleratedError" ordered="false"
+          unique="false" eType="#//MiningCore/MiningData/Double"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ApproximationTestResult" eSuperTypes="#//Supervised/MiningTestResult">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="meanPredictedValue" ordered="false"
+          unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="meanActualValue" ordered="false"
+          unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="meanAbsoluteError" ordered="false"
+          unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="rmsError" ordered="false"
+          unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="rSquared" ordered="false"
+          unique="false" lowerBound="1" eType="#//MiningCore/MiningData/Double"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ApproximationTestTask" eSuperTypes="#//Supervised/MiningTestTask">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="testResult" ordered="false"
+          unique="false" lowerBound="1" eType="#//Approximation/ApproximationTestResult"
+          containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_Approximation_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ApproximationFunctionSettings"
+          upperBound="-1" eType="#//Approximation/ApproximationFunctionSettings" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ApproximationTestResult"
+          upperBound="-1" eType="#//Approximation/ApproximationTestResult" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ApproximationTestTask"
+          upperBound="-1" eType="#//Approximation/ApproximationTestTask" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="AttributeImportance" nsURI="AttributeImportance" nsPrefix="AttributeImportance">
+    <eClassifiers xsi:type="ecore:EClass" name="AttributeImportanceSettings" eSuperTypes="#//Supervised/SupervisedFunctionSettings">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="maximumResultSize" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Integer"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="returnTop" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_AttributeImportance_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="AttributeImportanceSettings"
+          upperBound="-1" eType="#//AttributeImportance/AttributeImportanceSettings"
+          containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="InformationVisualization" nsURI="InformationVisualization" nsPrefix="InformationVisualization">
+    <eClassifiers xsi:type="ecore:EClass" name="RenderedObject" eSuperTypes="#//Core/Classifier">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="formula" ordered="false"
+          unique="false" lowerBound="1" eType="#//Expressions/ExpressionNode" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="action" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="fileName" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="url" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="rendering" ordered="false"
+          upperBound="-1" eType="#//InformationVisualization/Rendering"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="defaultRendering" ordered="false"
+          unique="false" eType="#//InformationVisualization/Rendering"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="component" ordered="false"
+          upperBound="-1" eType="#//InformationVisualization/RenderedObject"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="composite" ordered="false"
+          upperBound="-1" eType="#//InformationVisualization/RenderedObject"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="neighbor" ordered="false"
+          upperBound="-1" eType="#//InformationVisualization/RenderedObject"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="referencingNeighbor"
+          ordered="false" upperBound="-1" eType="#//InformationVisualization/RenderedObject"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="modelElement" ordered="false"
+          unique="false" eType="#//Core/ModelElement"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="renderedObjectSet" ordered="false"
+          unique="false" lowerBound="1" eType="#//InformationVisualization/RenderedObjectSet"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="RenderedObjectSet" eSuperTypes="#//Core/Package">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="renderedObject" ordered="false"
+          upperBound="-1" eType="#//InformationVisualization/RenderedObject" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="rendering" ordered="false"
+          upperBound="-1" eType="#//InformationVisualization/Rendering" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Rendering" eSuperTypes="#//Core/Feature">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="formula" ordered="false"
+          unique="false" lowerBound="1" eType="#//Expressions/ExpressionNode" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="action" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="fileName" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="url" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="renderedObject" ordered="false"
+          upperBound="-1" eType="#//InformationVisualization/RenderedObject"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="defaultedRenderedObject"
+          ordered="false" upperBound="-1" eType="#//InformationVisualization/RenderedObject"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="renderedObjectSet" ordered="false"
+          unique="false" lowerBound="1" eType="#//InformationVisualization/RenderedObjectSet"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="XSLRendering" eSuperTypes="#//InformationVisualization/Rendering"/>
+    <eClassifiers xsi:type="ecore:EClass" name="_InformationVisualization_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="RenderedObject" upperBound="-1"
+          eType="#//InformationVisualization/RenderedObject" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="RenderedObjectSet" upperBound="-1"
+          eType="#//InformationVisualization/RenderedObjectSet" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Rendering" upperBound="-1"
+          eType="#//InformationVisualization/Rendering" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="XSLRendering" upperBound="-1"
+          eType="#//InformationVisualization/XSLRendering" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="BusinessNomenclature" nsURI="BusinessNomenclature" nsPrefix="BusinessNomenclature">
+    <eClassifiers xsi:type="ecore:EClass" name="VocabularyElement" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="definition" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="example" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="usage" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="modelElement" ordered="false"
+          upperBound="-1" eType="#//Core/ModelElement"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Nomenclature" eSuperTypes="#//Core/Package"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Taxonomy" eSuperTypes="#//BusinessNomenclature/Nomenclature">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="domain" ordered="false"
+          unique="false" eType="#//Core/Namespace"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="concept" ordered="false"
+          upperBound="-1" eType="#//Core/ModelElement" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="subtaxonomy" ordered="false"
+          upperBound="-1" eType="#//BusinessNomenclature/Nomenclature" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Glossary" eSuperTypes="#//BusinessNomenclature/Nomenclature">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="language" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="taxonomy" ordered="false"
+          upperBound="-1" eType="#//BusinessNomenclature/Taxonomy"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="term" ordered="false"
+          upperBound="-1" eType="#//Core/ModelElement" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="subglossary" ordered="false"
+          upperBound="-1" eType="#//BusinessNomenclature/Nomenclature" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="BusinessDomain" eSuperTypes="#//Core/Package">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="taxonomy" ordered="false"
+          upperBound="-1" eType="#//Core/ModelElement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Concept" eSuperTypes="#//BusinessNomenclature/VocabularyElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="taxonomy" ordered="false"
+          unique="false" eType="#//Core/Namespace"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="relatedConcept" ordered="false"
+          upperBound="-1" eType="#//BusinessNomenclature/Concept"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Term" eSuperTypes="#//BusinessNomenclature/VocabularyElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="glossary" ordered="false"
+          unique="false" eType="#//Core/Namespace"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="concept" ordered="false"
+          upperBound="-1" eType="#//BusinessNomenclature/Concept"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="relatedTerm" ordered="false"
+          upperBound="-1" eType="#//BusinessNomenclature/Term"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="preferredTerm" ordered="false"
+          unique="false" eType="#//BusinessNomenclature/Term"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="narrowerTerm" ordered="false"
+          upperBound="-1" eType="#//BusinessNomenclature/Term"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_BusinessNomenclature_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="VocabularyElement" upperBound="-1"
+          eType="#//BusinessNomenclature/VocabularyElement" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Nomenclature" upperBound="-1"
+          eType="#//BusinessNomenclature/Nomenclature" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Taxonomy" upperBound="-1"
+          eType="#//BusinessNomenclature/Taxonomy" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Glossary" upperBound="-1"
+          eType="#//BusinessNomenclature/Glossary" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BusinessDomain" upperBound="-1"
+          eType="#//BusinessNomenclature/BusinessDomain" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Concept" upperBound="-1"
+          eType="#//BusinessNomenclature/Concept" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Term" upperBound="-1"
+          eType="#//BusinessNomenclature/Term" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="WarehouseProcess" nsURI="WarehouseProcess" nsPrefix="WarehouseProcess">
+    <eClassifiers xsi:type="ecore:EClass" name="WarehouseProcess" abstract="true"
+        eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="staticDefinition" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isSequential" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="warehouseEvent" ordered="false"
+          upperBound="-1" eType="#//WarehouseProcess/Events/WarehouseEvent" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="internalEvent" ordered="false"
+          upperBound="-1" eType="#//WarehouseProcess/Events/InternalEvent"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="WarehouseStep" eSuperTypes="#//WarehouseProcess/WarehouseProcess">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="transformationStep" ordered="false"
+          unique="false" lowerBound="1" eType="#//Transformation_/TransformationStep"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="warehouseActivity" ordered="false"
+          unique="false" lowerBound="1" eType="#//WarehouseProcess/WarehouseActivity"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ProcessPackage" eSuperTypes="#//Core/Package"/>
+    <eClassifiers xsi:type="ecore:EClass" name="WarehouseActivity" eSuperTypes="#//WarehouseProcess/WarehouseProcess">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="transformationActivity"
+          ordered="false" unique="false" lowerBound="1" eType="#//Transformation_/TransformationActivity"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="warehouseStep" upperBound="-1"
+          eType="#//WarehouseProcess/WarehouseStep" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_WarehouseProcess_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="WarehouseProcess" upperBound="-1"
+          eType="#//WarehouseProcess/WarehouseProcess" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="WarehouseStep" upperBound="-1"
+          eType="#//WarehouseProcess/WarehouseStep" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ProcessPackage" upperBound="-1"
+          eType="#//WarehouseProcess/ProcessPackage" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="WarehouseActivity" upperBound="-1"
+          eType="#//WarehouseProcess/WarehouseActivity" containment="true"/>
+    </eClassifiers>
+    <eSubpackages name="DataType" nsURI="DataType" nsPrefix="DataType">
+      <eClassifiers xsi:type="ecore:EEnum" name="RecurringType">
+        <eLiterals name="everyYear" value="1"/>
+        <eLiterals name="everyMonth" value="2"/>
+        <eLiterals name="everyWeek" value="3"/>
+        <eLiterals name="everyDay" value="4"/>
+        <eLiterals name="everyHour" value="5"/>
+        <eLiterals name="everyMinute" value="6"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="DayOfWeek">
+        <eLiterals name="monday" value="1"/>
+        <eLiterals name="tuesday" value="2"/>
+        <eLiterals name="wednesday" value="3"/>
+        <eLiterals name="thursday" value="4"/>
+        <eLiterals name="friday" value="5"/>
+        <eLiterals name="saturday" value="6"/>
+        <eLiterals name="sunday" value="7"/>
+        <eLiterals name="workingDay" value="8"/>
+        <eLiterals name="nonworkingDay" value="9"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EEnum" name="WaitRuleType">
+        <eLiterals name="waitForAll" value="1"/>
+        <eLiterals name="waitForAny" value="2"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="_DataType_Ecore_Container"/>
+    </eSubpackages>
+    <eSubpackages name="Events" nsURI="Events" nsPrefix="Events">
+      <eClassifiers xsi:type="ecore:EClass" name="WarehouseEvent" abstract="true"
+          eSuperTypes="#//Behavioral/Event">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="warehouseProcess" ordered="false"
+            unique="false" lowerBound="1" eType="#//WarehouseProcess/WarehouseProcess"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="ScheduleEvent" abstract="true" eSuperTypes="#//WarehouseProcess/Events/WarehouseEvent"/>
+      <eClassifiers xsi:type="ecore:EClass" name="PointInTimeEvent" eSuperTypes="#//WarehouseProcess/Events/ScheduleEvent"/>
+      <eClassifiers xsi:type="ecore:EClass" name="CustomCalendarEvent" eSuperTypes="#//WarehouseProcess/Events/PointInTimeEvent">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="customCalendar" ordered="false"
+            unique="false" lowerBound="1" eType="#//WarehouseProcess/Events/CustomCalendar"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="CustomCalendar" eSuperTypes="#//Core/Package">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="customCalendarEvent"
+            ordered="false" upperBound="-1" eType="#//WarehouseProcess/Events/CustomCalendarEvent"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="CalendarDate" eSuperTypes="#//Core/ModelElement">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="specificDate" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Time"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="IntervalEvent" eSuperTypes="#//WarehouseProcess/Events/ScheduleEvent">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="duration" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Float"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="ExternalEvent" eSuperTypes="#//WarehouseProcess/Events/WarehouseEvent">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/String"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="InternalEvent" eSuperTypes="#//WarehouseProcess/Events/WarehouseEvent">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="condition" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/BooleanExpression" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="triggeringWP" ordered="false"
+            lowerBound="1" upperBound="-1" eType="#//WarehouseProcess/WarehouseProcess"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="CascadeEvent" eSuperTypes="#//WarehouseProcess/Events/InternalEvent">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="waitRule" ordered="false"
+            unique="false" lowerBound="1" eType="#//WarehouseProcess/DataType/WaitRuleType"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="RetryEvent" eSuperTypes="#//WarehouseProcess/Events/InternalEvent">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="waitDuration" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Float"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxCount" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Integer"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="RecurringPointInTimeEvent" eSuperTypes="#//WarehouseProcess/Events/PointInTimeEvent">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="recurringType" ordered="false"
+            unique="false" lowerBound="1" eType="#//WarehouseProcess/DataType/RecurringType"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="frequencyFactor" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Integer"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="month" ordered="false"
+            unique="false" eType="#//Core/Integer"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="dayOfMonth" ordered="false"
+            unique="false" eType="#//Core/Integer"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="dayOfWeek" ordered="false"
+            unique="false" eType="#//WarehouseProcess/DataType/DayOfWeek"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="hour" ordered="false"
+            unique="false" eType="#//Core/Integer"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="minute" ordered="false"
+            unique="false" eType="#//Core/Integer"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="second" ordered="false"
+            unique="false" lowerBound="1" eType="#//Core/Integer"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="_Events_Ecore_Container">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="WarehouseEvent" upperBound="-1"
+            eType="#//WarehouseProcess/Events/WarehouseEvent" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="ScheduleEvent" upperBound="-1"
+            eType="#//WarehouseProcess/Events/ScheduleEvent" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="PointInTimeEvent" upperBound="-1"
+            eType="#//WarehouseProcess/Events/PointInTimeEvent" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CustomCalendarEvent"
+            upperBound="-1" eType="#//WarehouseProcess/Events/CustomCalendarEvent"
+            containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CustomCalendar" upperBound="-1"
+            eType="#//WarehouseProcess/Events/CustomCalendar" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CalendarDate" upperBound="-1"
+            eType="#//WarehouseProcess/Events/CalendarDate" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="IntervalEvent" upperBound="-1"
+            eType="#//WarehouseProcess/Events/IntervalEvent" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="ExternalEvent" upperBound="-1"
+            eType="#//WarehouseProcess/Events/ExternalEvent" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="InternalEvent" upperBound="-1"
+            eType="#//WarehouseProcess/Events/InternalEvent" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="CascadeEvent" upperBound="-1"
+            eType="#//WarehouseProcess/Events/CascadeEvent" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="RetryEvent" upperBound="-1"
+            eType="#//WarehouseProcess/Events/RetryEvent" containment="true"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="RecurringPointInTimeEvent"
+            upperBound="-1" eType="#//WarehouseProcess/Events/RecurringPointInTimeEvent"
+            containment="true"/>
+      </eClassifiers>
+    </eSubpackages>
+  </eSubpackages>
+  <eSubpackages name="WarehouseOperation" nsURI="WarehouseOperation" nsPrefix="WarehouseOperation">
+    <eClassifiers xsi:type="ecore:EClass" name="Measurement" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Float"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="unit" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="creationDate" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Time"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="effectiveDate" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Time"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="modelElement" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/ModelElement"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ChangeRequest" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="changeDescription" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="changeReason" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="status" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="completed" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="requestDate" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Time"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="completionDate" ordered="false"
+          unique="false" eType="#//Core/Time"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="modelElement" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#//Core/ModelElement"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TransformationExecution" eSuperTypes="#//Core/ModelElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="startDate" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Time"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="endDate" ordered="false"
+          unique="false" eType="#//Core/Time"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="inProgress" ordered="false"
+          unique="false" lowerBound="1" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="successful" ordered="false"
+          unique="false" eType="#//Core/Boolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="status" ordered="false"
+          unique="false" eType="#//Core/Expression" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ActivityExecution" eSuperTypes="#//WarehouseOperation/TransformationExecution">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="transformationActivity"
+          ordered="false" unique="false" lowerBound="1" eType="#//Transformation_/TransformationActivity"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="stepExecution" ordered="false"
+          upperBound="-1" eType="#//WarehouseOperation/StepExecution" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="StepExecution" eSuperTypes="#//WarehouseOperation/TransformationExecution">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="transformationStep" ordered="false"
+          unique="false" lowerBound="1" eType="#//Transformation_/TransformationStep"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="activityExecution" ordered="false"
+          unique="false" eType="#//WarehouseOperation/ActivityExecution"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="callAction" ordered="false"
+          unique="false" eType="#//Behavioral/CallAction"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="_WarehouseOperation_Ecore_Container">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="Measurement" upperBound="-1"
+          eType="#//WarehouseOperation/Measurement" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ChangeRequest" upperBound="-1"
+          eType="#//WarehouseOperation/ChangeRequest" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="TransformationExecution"
+          upperBound="-1" eType="#//WarehouseOperation/TransformationExecution" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ActivityExecution" upperBound="-1"
+          eType="#//WarehouseOperation/ActivityExecution" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="StepExecution" upperBound="-1"
+          eType="#//WarehouseOperation/StepExecution" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="CWMComplete" nsURI="CWMComplete" nsPrefix="CWMComplete">
+    <eClassifiers xsi:type="ecore:EClass" name="_CWMComplete_Ecore_Container"/>
+  </eSubpackages>
+</ecore:EPackage>

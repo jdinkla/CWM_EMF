@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="P"
+    nsURI="P" nsPrefix="P">
+  <eClassifiers xsi:type="ecore:EClass" name="C1">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="d1" eType="#//D1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="D1" instanceClassName="java.lang.String"/>
+  <eClassifiers xsi:type="ecore:EClass" name="C2">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="a1" eType="#//Q/R/DR"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="a2" eType="#//Q/DQ"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="a3" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="r1" eType="#//Q/CQ" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="r2" eType="#//Q/R/CR" containment="true"/>
+  </eClassifiers>
+  <eSubpackages name="Q" nsURI="Q" nsPrefix="Q">
+    <eClassifiers xsi:type="ecore:EClass" name="CQ" eSuperTypes="#//C1">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="a1" eType="#//D1"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="r1" eType="#//C1" defaultValueLiteral=""
+          containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EDataType" name="DQ" instanceClassName="java.lang.String"/>
+    <eSubpackages name="R" nsURI="R" nsPrefix="R">
+      <eClassifiers xsi:type="ecore:EDataType" name="DR" instanceClassName="java.lang.String"/>
+      <eClassifiers xsi:type="ecore:EClass" name="CR">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="a1" eType="#//Q/DQ"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="a2" eType="#//Q/R/DR"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="r1" eType="#//Q/CQ"
+            containment="true"/>
+      </eClassifiers>
+    </eSubpackages>
+  </eSubpackages>
+</ecore:EPackage>

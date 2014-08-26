@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/my1/src"
+    editDirectory="/my1.edit/src" editorDirectory="/my1.editor/src" modelPluginID="my1"
+    modelName="my1" importerID="org.eclipse.emf.importer.ecore">
+  <foreignModel>My1.ecore</foreignModel>
+  <genPackages prefix="P" disposableProviderFactory="true" ecorePackage="My1.ecore#/">
+    <genDataTypes ecoreDataType="My1.ecore#//D1"/>
+    <genClasses ecoreClass="My1.ecore#//C1">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My1.ecore#//C1/d1"/>
+    </genClasses>
+    <genClasses ecoreClass="My1.ecore#//C2">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My1.ecore#//C2/a1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My1.ecore#//C2/a2"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My1.ecore#//C2/a3"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference My1.ecore#//C2/r1"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference My1.ecore#//C2/r2"/>
+    </genClasses>
+    <nestedGenPackages prefix="Q" basePackage="P" disposableProviderFactory="true"
+        ecorePackage="My1.ecore#//Q">
+      <genDataTypes ecoreDataType="My1.ecore#//Q/DQ"/>
+      <genClasses ecoreClass="My1.ecore#//Q/CQ">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My1.ecore#//Q/CQ/a1"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference My1.ecore#//Q/CQ/r1"/>
+      </genClasses>
+      <nestedGenPackages prefix="R" basePackage="P.Q" disposableProviderFactory="true"
+          ecorePackage="My1.ecore#//Q/R">
+        <genDataTypes ecoreDataType="My1.ecore#//Q/R/DR"/>
+        <genClasses ecoreClass="My1.ecore#//Q/R/CR">
+          <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My1.ecore#//Q/R/CR/a1"/>
+          <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My1.ecore#//Q/R/CR/a2"/>
+          <genFeatures notify="false" createChild="false" propertySortChoices="true"
+              ecoreFeature="ecore:EReference My1.ecore#//Q/R/CR/r1"/>
+        </genClasses>
+      </nestedGenPackages>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,5213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  
+  <ecore:EPackage xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:xalan="http://xml.apache.org/xalan" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:Model="http://www.omg.org/mof.Model/1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" name="UML" nsURI="UML" nsPrefix="UML">
+    
+      
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+    
+    
+      
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+            
+          
+        
+        
+          
+            
+              
+                
+                  
+                
+              
+            
+          
+        
+        
+          
+            
+              
+            
+          
+        
+        
+          
+            
+              
+                
+                
+                
+              
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+            
+          
+        
+        
+          
+            
+              
+                
+                
+                
+              
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                
+                
+                
+              
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                
+                
+              
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                
+                
+                
+                
+              
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                
+                
+              
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                
+                
+                
+                
+              
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                
+                  
+                
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+            
+              
+                
+                  
+                
+              
+            
+          
+        
+        
+          
+            
+              
+                
+                
+                
+                
+                
+                
+                
+              
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                
+                  
+                
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                2 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                2 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                2 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+        
+        
+        
+        
+          
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                2 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                -1 
+                true 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+        
+      
+    
+    
+      
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                true 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+            
+              
+                1 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+      
+    
+    
+      
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+        
+          
+            
+              
+                1 
+                1 
+                false 
+                false 
+              
+            
+            
+              
+                0 
+                -1 
+                false 
+                true 
+              
+            
+          
+        
+      
+    
+  <eClassifiers xsi:type="ecore:EClass" name="_UML_container"/>
+</ecore:EPackage>

@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ (c) 2007 Joern Dinkla, www.dinkla.net
+ 
+
+ $Id$
+-->
+
+<plugin>
+
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.presentation.CWMModelWizardID"
+      name = "%_UI_CWMModelWizard_label"
+      class = "CWM.presentation.CWMModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/CWMModelFile.gif">
+      <description>%_UI_CWMModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.presentation.CWMEditorID"
+        name = "%_UI_CWMEditor_label"
+        icon = "icons/full/obj16/CWMModelFile.gif"
+        extensions = "cwm"
+        class = "CWM.presentation.CWMEditor" 
+        contributorClass="CWM.presentation.CWMActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.Core.presentation.CoreModelWizardID"
+      name = "%_UI_CoreModelWizard_label"
+      class = "CWM.Core.presentation.CoreModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/CoreModelFile.gif">
+      <description>%_UI_CoreModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.Core.presentation.CoreEditorID"
+        name = "%_UI_CoreEditor_label"
+        icon = "icons/full/obj16/CoreModelFile.gif"
+        extensions = "core"
+        class = "CWM.Core.presentation.CoreEditor" 
+        contributorClass="CWM.Core.presentation.CoreActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.Behavioral.presentation.BehavioralModelWizardID"
+      name = "%_UI_BehavioralModelWizard_label"
+      class = "CWM.Behavioral.presentation.BehavioralModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/BehavioralModelFile.gif">
+      <description>%_UI_BehavioralModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.Behavioral.presentation.BehavioralEditorID"
+        name = "%_UI_BehavioralEditor_label"
+        icon = "icons/full/obj16/BehavioralModelFile.gif"
+        extensions = "behavioral"
+        class = "CWM.Behavioral.presentation.BehavioralEditor" 
+        contributorClass="CWM.Behavioral.presentation.BehavioralActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.Relationships.presentation.RelationshipsModelWizardID"
+      name = "%_UI_RelationshipsModelWizard_label"
+      class = "CWM.Relationships.presentation.RelationshipsModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/RelationshipsModelFile.gif">
+      <description>%_UI_RelationshipsModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.Relationships.presentation.RelationshipsEditorID"
+        name = "%_UI_RelationshipsEditor_label"
+        icon = "icons/full/obj16/RelationshipsModelFile.gif"
+        extensions = "relationships"
+        class = "CWM.Relationships.presentation.RelationshipsEditor" 
+        contributorClass="CWM.Relationships.presentation.RelationshipsActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.CwmInstance.presentation.CwmInstanceModelWizardID"
+      name = "%_UI_CwmInstanceModelWizard_label"
+      class = "CWM.CwmInstance.presentation.CwmInstanceModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/CwmInstanceModelFile.gif">
+      <description>%_UI_CwmInstanceModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.CwmInstance.presentation.CwmInstanceEditorID"
+        name = "%_UI_CwmInstanceEditor_label"
+        icon = "icons/full/obj16/CwmInstanceModelFile.gif"
+        extensions = "cwminstance"
+        class = "CWM.CwmInstance.presentation.CwmInstanceEditor" 
+        contributorClass="CWM.CwmInstance.presentation.CwmInstanceActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.BusinessInformation.presentation.BusinessInformationModelWizardID"
+      name = "%_UI_BusinessInformationModelWizard_label"
+      class = "CWM.BusinessInformation.presentation.BusinessInformationModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/BusinessInformationModelFile.gif">
+      <description>%_UI_BusinessInformationModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.BusinessInformation.presentation.BusinessInformationEditorID"
+        name = "%_UI_BusinessInformationEditor_label"
+        icon = "icons/full/obj16/BusinessInformationModelFile.gif"
+        extensions = "businessinformation"
+        class = "CWM.BusinessInformation.presentation.BusinessInformationEditor" 
+        contributorClass="CWM.BusinessInformation.presentation.BusinessInformationActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.DataTypes.presentation.DataTypesModelWizardID"
+      name = "%_UI_DataTypesModelWizard_label"
+      class = "CWM.DataTypes.presentation.DataTypesModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/DataTypesModelFile.gif">
+      <description>%_UI_DataTypesModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.DataTypes.presentation.DataTypesEditorID"
+        name = "%_UI_DataTypesEditor_label"
+        icon = "icons/full/obj16/DataTypesModelFile.gif"
+        extensions = "datatypes"
+        class = "CWM.DataTypes.presentation.DataTypesEditor" 
+        contributorClass="CWM.DataTypes.presentation.DataTypesActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.Expressions.presentation.ExpressionsModelWizardID"
+      name = "%_UI_ExpressionsModelWizard_label"
+      class = "CWM.Expressions.presentation.ExpressionsModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/ExpressionsModelFile.gif">
+      <description>%_UI_ExpressionsModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.Expressions.presentation.ExpressionsEditorID"
+        name = "%_UI_ExpressionsEditor_label"
+        icon = "icons/full/obj16/ExpressionsModelFile.gif"
+        extensions = "expressions"
+        class = "CWM.Expressions.presentation.ExpressionsEditor" 
+        contributorClass="CWM.Expressions.presentation.ExpressionsActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.KeysIndexes.presentation.KeysIndexesModelWizardID"
+      name = "%_UI_KeysIndexesModelWizard_label"
+      class = "CWM.KeysIndexes.presentation.KeysIndexesModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/KeysIndexesModelFile.gif">
+      <description>%_UI_KeysIndexesModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.KeysIndexes.presentation.KeysIndexesEditorID"
+        name = "%_UI_KeysIndexesEditor_label"
+        icon = "icons/full/obj16/KeysIndexesModelFile.gif"
+        extensions = "keysindexes"
+        class = "CWM.KeysIndexes.presentation.KeysIndexesEditor" 
+        contributorClass="CWM.KeysIndexes.presentation.KeysIndexesActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.SoftwareDeployment.presentation.SoftwareDeploymentModelWizardID"
+      name = "%_UI_SoftwareDeploymentModelWizard_label"
+      class = "CWM.SoftwareDeployment.presentation.SoftwareDeploymentModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/SoftwareDeploymentModelFile.gif">
+      <description>%_UI_SoftwareDeploymentModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.SoftwareDeployment.presentation.SoftwareDeploymentEditorID"
+        name = "%_UI_SoftwareDeploymentEditor_label"
+        icon = "icons/full/obj16/SoftwareDeploymentModelFile.gif"
+        extensions = "softwaredeployment"
+        class = "CWM.SoftwareDeployment.presentation.SoftwareDeploymentEditor" 
+        contributorClass="CWM.SoftwareDeployment.presentation.SoftwareDeploymentActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.TypeMapping.presentation.TypeMappingModelWizardID"
+      name = "%_UI_TypeMappingModelWizard_label"
+      class = "CWM.TypeMapping.presentation.TypeMappingModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/TypeMappingModelFile.gif">
+      <description>%_UI_TypeMappingModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.TypeMapping.presentation.TypeMappingEditorID"
+        name = "%_UI_TypeMappingEditor_label"
+        icon = "icons/full/obj16/TypeMappingModelFile.gif"
+        extensions = "typemapping"
+        class = "CWM.TypeMapping.presentation.TypeMappingEditor" 
+        contributorClass="CWM.TypeMapping.presentation.TypeMappingActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.Relational.presentation.RelationalModelWizardID"
+      name = "%_UI_RelationalModelWizard_label"
+      class = "CWM.Relational.presentation.RelationalModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/RelationalModelFile.gif">
+      <description>%_UI_RelationalModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.Relational.presentation.RelationalEditorID"
+        name = "%_UI_RelationalEditor_label"
+        icon = "icons/full/obj16/RelationalModelFile.gif"
+        extensions = "relational"
+        class = "CWM.Relational.presentation.RelationalEditor" 
+        contributorClass="CWM.Relational.presentation.RelationalActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.Relational.Enumerations.presentation.EnumerationsModelWizardID"
+      name = "%_UI_EnumerationsModelWizard_label"
+      class = "CWM.Relational.Enumerations.presentation.EnumerationsModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/EnumerationsModelFile.gif">
+      <description>%_UI_EnumerationsModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.Relational.Enumerations.presentation.EnumerationsEditorID"
+        name = "%_UI_EnumerationsEditor_label"
+        icon = "icons/full/obj16/EnumerationsModelFile.gif"
+        extensions = "enumerations"
+        class = "CWM.Relational.Enumerations.presentation.EnumerationsEditor" 
+        contributorClass="CWM.Relational.Enumerations.presentation.EnumerationsActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.Record.presentation.RecordModelWizardID"
+      name = "%_UI_RecordModelWizard_label"
+      class = "CWM.Record.presentation.RecordModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/RecordModelFile.gif">
+      <description>%_UI_RecordModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.Record.presentation.RecordEditorID"
+        name = "%_UI_RecordEditor_label"
+        icon = "icons/full/obj16/RecordModelFile.gif"
+        extensions = "record"
+        class = "CWM.Record.presentation.RecordEditor" 
+        contributorClass="CWM.Record.presentation.RecordActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.Multidimensional.presentation.MultidimensionalModelWizardID"
+      name = "%_UI_MultidimensionalModelWizard_label"
+      class = "CWM.Multidimensional.presentation.MultidimensionalModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/MultidimensionalModelFile.gif">
+      <description>%_UI_MultidimensionalModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.Multidimensional.presentation.MultidimensionalEditorID"
+        name = "%_UI_MultidimensionalEditor_label"
+        icon = "icons/full/obj16/MultidimensionalModelFile.gif"
+        extensions = "multidimensional"
+        class = "CWM.Multidimensional.presentation.MultidimensionalEditor" 
+        contributorClass="CWM.Multidimensional.presentation.MultidimensionalActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.CwmXml.presentation.CwmXmlModelWizardID"
+      name = "%_UI_CwmXmlModelWizard_label"
+      class = "CWM.CwmXml.presentation.CwmXmlModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/CwmXmlModelFile.gif">
+      <description>%_UI_CwmXmlModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.CwmXml.presentation.CwmXmlEditorID"
+        name = "%_UI_CwmXmlEditor_label"
+        icon = "icons/full/obj16/CwmXmlModelFile.gif"
+        extensions = "cwmxml"
+        class = "CWM.CwmXml.presentation.CwmXmlEditor" 
+        contributorClass="CWM.CwmXml.presentation.CwmXmlActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.CwmTransformation.presentation.CwmTransformationModelWizardID"
+      name = "%_UI_CwmTransformationModelWizard_label"
+      class = "CWM.CwmTransformation.presentation.CwmTransformationModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/CwmTransformationModelFile.gif">
+      <description>%_UI_CwmTransformationModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.CwmTransformation.presentation.CwmTransformationEditorID"
+        name = "%_UI_CwmTransformationEditor_label"
+        icon = "icons/full/obj16/CwmTransformationModelFile.gif"
+        extensions = "cwmtransformation"
+        class = "CWM.CwmTransformation.presentation.CwmTransformationEditor" 
+        contributorClass="CWM.CwmTransformation.presentation.CwmTransformationActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.Olap.presentation.OlapModelWizardID"
+      name = "%_UI_OlapModelWizard_label"
+      class = "CWM.Olap.presentation.OlapModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/OlapModelFile.gif">
+      <description>%_UI_OlapModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.Olap.presentation.OlapEditorID"
+        name = "%_UI_OlapEditor_label"
+        icon = "icons/full/obj16/OlapModelFile.gif"
+        extensions = "olap"
+        class = "CWM.Olap.presentation.OlapEditor" 
+        contributorClass="CWM.Olap.presentation.OlapActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.MiningCore.presentation.MiningCoreModelWizardID"
+      name = "%_UI_MiningCoreModelWizard_label"
+      class = "CWM.MiningCore.presentation.MiningCoreModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/MiningCoreModelFile.gif">
+      <description>%_UI_MiningCoreModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.MiningCore.presentation.MiningCoreEditorID"
+        name = "%_UI_MiningCoreEditor_label"
+        icon = "icons/full/obj16/MiningCoreModelFile.gif"
+        extensions = "miningcore"
+        class = "CWM.MiningCore.presentation.MiningCoreEditor" 
+        contributorClass="CWM.MiningCore.presentation.MiningCoreActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.MiningCore.MiningData.presentation.MiningDataModelWizardID"
+      name = "%_UI_MiningDataModelWizard_label"
+      class = "CWM.MiningCore.MiningData.presentation.MiningDataModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/MiningDataModelFile.gif">
+      <description>%_UI_MiningDataModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.MiningCore.MiningData.presentation.MiningDataEditorID"
+        name = "%_UI_MiningDataEditor_label"
+        icon = "icons/full/obj16/MiningDataModelFile.gif"
+        extensions = "miningdata"
+        class = "CWM.MiningCore.MiningData.presentation.MiningDataEditor" 
+        contributorClass="CWM.MiningCore.MiningData.presentation.MiningDataActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.MiningCore.MiningFunctionSettings.presentation.MiningFunctionSettingsModelWizardID"
+      name = "%_UI_MiningFunctionSettingsModelWizard_label"
+      class = "CWM.MiningCore.MiningFunctionSettings.presentation.MiningFunctionSettingsModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/MiningFunctionSettingsModelFile.gif">
+      <description>%_UI_MiningFunctionSettingsModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.MiningCore.MiningFunctionSettings.presentation.MiningFunctionSettingsEditorID"
+        name = "%_UI_MiningFunctionSettingsEditor_label"
+        icon = "icons/full/obj16/MiningFunctionSettingsModelFile.gif"
+        extensions = "miningfunctionsettings"
+        class = "CWM.MiningCore.MiningFunctionSettings.presentation.MiningFunctionSettingsEditor" 
+        contributorClass="CWM.MiningCore.MiningFunctionSettings.presentation.MiningFunctionSettingsActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.MiningCore.MiningModel.presentation.MiningModelModelWizardID"
+      name = "%_UI_MiningModelModelWizard_label"
+      class = "CWM.MiningCore.MiningModel.presentation.MiningModelModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/MiningModelModelFile.gif">
+      <description>%_UI_MiningModelModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.MiningCore.MiningModel.presentation.MiningModelEditorID"
+        name = "%_UI_MiningModelEditor_label"
+        icon = "icons/full/obj16/MiningModelModelFile.gif"
+        extensions = "miningmodel"
+        class = "CWM.MiningCore.MiningModel.presentation.MiningModelEditor" 
+        contributorClass="CWM.MiningCore.MiningModel.presentation.MiningModelActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.MiningCore.MiningResult.presentation.MiningResultModelWizardID"
+      name = "%_UI_MiningResultModelWizard_label"
+      class = "CWM.MiningCore.MiningResult.presentation.MiningResultModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/MiningResultModelFile.gif">
+      <description>%_UI_MiningResultModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.MiningCore.MiningResult.presentation.MiningResultEditorID"
+        name = "%_UI_MiningResultEditor_label"
+        icon = "icons/full/obj16/MiningResultModelFile.gif"
+        extensions = "miningresult"
+        class = "CWM.MiningCore.MiningResult.presentation.MiningResultEditor" 
+        contributorClass="CWM.MiningCore.MiningResult.presentation.MiningResultActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.MiningCore.MiningTask.presentation.MiningTaskModelWizardID"
+      name = "%_UI_MiningTaskModelWizard_label"
+      class = "CWM.MiningCore.MiningTask.presentation.MiningTaskModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/MiningTaskModelFile.gif">
+      <description>%_UI_MiningTaskModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.MiningCore.MiningTask.presentation.MiningTaskEditorID"
+        name = "%_UI_MiningTaskEditor_label"
+        icon = "icons/full/obj16/MiningTaskModelFile.gif"
+        extensions = "miningtask"
+        class = "CWM.MiningCore.MiningTask.presentation.MiningTaskEditor" 
+        contributorClass="CWM.MiningCore.MiningTask.presentation.MiningTaskActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.MiningCore.EntryPoint.presentation.EntryPointModelWizardID"
+      name = "%_UI_EntryPointModelWizard_label"
+      class = "CWM.MiningCore.EntryPoint.presentation.EntryPointModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/EntryPointModelFile.gif">
+      <description>%_UI_EntryPointModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.MiningCore.EntryPoint.presentation.EntryPointEditorID"
+        name = "%_UI_EntryPointEditor_label"
+        icon = "icons/full/obj16/EntryPointModelFile.gif"
+        extensions = "entrypoint"
+        class = "CWM.MiningCore.EntryPoint.presentation.EntryPointEditor" 
+        contributorClass="CWM.MiningCore.EntryPoint.presentation.EntryPointActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.Clustering.presentation.ClusteringModelWizardID"
+      name = "%_UI_ClusteringModelWizard_label"
+      class = "CWM.Clustering.presentation.ClusteringModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/ClusteringModelFile.gif">
+      <description>%_UI_ClusteringModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.Clustering.presentation.ClusteringEditorID"
+        name = "%_UI_ClusteringEditor_label"
+        icon = "icons/full/obj16/ClusteringModelFile.gif"
+        extensions = "clustering"
+        class = "CWM.Clustering.presentation.ClusteringEditor" 
+        contributorClass="CWM.Clustering.presentation.ClusteringActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.AssociationRules.presentation.AssociationRulesModelWizardID"
+      name = "%_UI_AssociationRulesModelWizard_label"
+      class = "CWM.AssociationRules.presentation.AssociationRulesModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/AssociationRulesModelFile.gif">
+      <description>%_UI_AssociationRulesModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.AssociationRules.presentation.AssociationRulesEditorID"
+        name = "%_UI_AssociationRulesEditor_label"
+        icon = "icons/full/obj16/AssociationRulesModelFile.gif"
+        extensions = "associationrules"
+        class = "CWM.AssociationRules.presentation.AssociationRulesEditor" 
+        contributorClass="CWM.AssociationRules.presentation.AssociationRulesActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.Supervised.presentation.SupervisedModelWizardID"
+      name = "%_UI_SupervisedModelWizard_label"
+      class = "CWM.Supervised.presentation.SupervisedModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/SupervisedModelFile.gif">
+      <description>%_UI_SupervisedModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.Supervised.presentation.SupervisedEditorID"
+        name = "%_UI_SupervisedEditor_label"
+        icon = "icons/full/obj16/SupervisedModelFile.gif"
+        extensions = "supervised"
+        class = "CWM.Supervised.presentation.SupervisedEditor" 
+        contributorClass="CWM.Supervised.presentation.SupervisedActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.Classification.presentation.ClassificationModelWizardID"
+      name = "%_UI_ClassificationModelWizard_label"
+      class = "CWM.Classification.presentation.ClassificationModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/ClassificationModelFile.gif">
+      <description>%_UI_ClassificationModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.Classification.presentation.ClassificationEditorID"
+        name = "%_UI_ClassificationEditor_label"
+        icon = "icons/full/obj16/ClassificationModelFile.gif"
+        extensions = "classification"
+        class = "CWM.Classification.presentation.ClassificationEditor" 
+        contributorClass="CWM.Classification.presentation.ClassificationActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.Approximation.presentation.ApproximationModelWizardID"
+      name = "%_UI_ApproximationModelWizard_label"
+      class = "CWM.Approximation.presentation.ApproximationModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/ApproximationModelFile.gif">
+      <description>%_UI_ApproximationModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.Approximation.presentation.ApproximationEditorID"
+        name = "%_UI_ApproximationEditor_label"
+        icon = "icons/full/obj16/ApproximationModelFile.gif"
+        extensions = "approximation"
+        class = "CWM.Approximation.presentation.ApproximationEditor" 
+        contributorClass="CWM.Approximation.presentation.ApproximationActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.AttributeImportance.presentation.AttributeImportanceModelWizardID"
+      name = "%_UI_AttributeImportanceModelWizard_label"
+      class = "CWM.AttributeImportance.presentation.AttributeImportanceModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/AttributeImportanceModelFile.gif">
+      <description>%_UI_AttributeImportanceModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.AttributeImportance.presentation.AttributeImportanceEditorID"
+        name = "%_UI_AttributeImportanceEditor_label"
+        icon = "icons/full/obj16/AttributeImportanceModelFile.gif"
+        extensions = "attributeimportance"
+        class = "CWM.AttributeImportance.presentation.AttributeImportanceEditor" 
+        contributorClass="CWM.AttributeImportance.presentation.AttributeImportanceActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.InformationVisualization.presentation.InformationVisualizationModelWizardID"
+      name = "%_UI_InformationVisualizationModelWizard_label"
+      class = "CWM.InformationVisualization.presentation.InformationVisualizationModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/InformationVisualizationModelFile.gif">
+      <description>%_UI_InformationVisualizationModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.InformationVisualization.presentation.InformationVisualizationEditorID"
+        name = "%_UI_InformationVisualizationEditor_label"
+        icon = "icons/full/obj16/InformationVisualizationModelFile.gif"
+        extensions = "informationvisualization"
+        class = "CWM.InformationVisualization.presentation.InformationVisualizationEditor" 
+        contributorClass="CWM.InformationVisualization.presentation.InformationVisualizationActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.BusinessNomenclature.presentation.BusinessNomenclatureModelWizardID"
+      name = "%_UI_BusinessNomenclatureModelWizard_label"
+      class = "CWM.BusinessNomenclature.presentation.BusinessNomenclatureModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/BusinessNomenclatureModelFile.gif">
+      <description>%_UI_BusinessNomenclatureModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.BusinessNomenclature.presentation.BusinessNomenclatureEditorID"
+        name = "%_UI_BusinessNomenclatureEditor_label"
+        icon = "icons/full/obj16/BusinessNomenclatureModelFile.gif"
+        extensions = "businessnomenclature"
+        class = "CWM.BusinessNomenclature.presentation.BusinessNomenclatureEditor" 
+        contributorClass="CWM.BusinessNomenclature.presentation.BusinessNomenclatureActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.WarehouseProcess.presentation.WarehouseProcessModelWizardID"
+      name = "%_UI_WarehouseProcessModelWizard_label"
+      class = "CWM.WarehouseProcess.presentation.WarehouseProcessModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/WarehouseProcessModelFile.gif">
+      <description>%_UI_WarehouseProcessModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.WarehouseProcess.presentation.WarehouseProcessEditorID"
+        name = "%_UI_WarehouseProcessEditor_label"
+        icon = "icons/full/obj16/WarehouseProcessModelFile.gif"
+        extensions = "warehouseprocess"
+        class = "CWM.WarehouseProcess.presentation.WarehouseProcessEditor" 
+        contributorClass="CWM.WarehouseProcess.presentation.WarehouseProcessActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.WarehouseProcess.DataType.presentation.DataTypeModelWizardID"
+      name = "%_UI_DataTypeModelWizard_label"
+      class = "CWM.WarehouseProcess.DataType.presentation.DataTypeModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/DataTypeModelFile.gif">
+      <description>%_UI_DataTypeModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.WarehouseProcess.DataType.presentation.DataTypeEditorID"
+        name = "%_UI_DataTypeEditor_label"
+        icon = "icons/full/obj16/DataTypeModelFile.gif"
+        extensions = "datatype"
+        class = "CWM.WarehouseProcess.DataType.presentation.DataTypeEditor" 
+        contributorClass="CWM.WarehouseProcess.DataType.presentation.DataTypeActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.WarehouseProcess.Events.presentation.EventsModelWizardID"
+      name = "%_UI_EventsModelWizard_label"
+      class = "CWM.WarehouseProcess.Events.presentation.EventsModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/EventsModelFile.gif">
+      <description>%_UI_EventsModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.WarehouseProcess.Events.presentation.EventsEditorID"
+        name = "%_UI_EventsEditor_label"
+        icon = "icons/full/obj16/EventsModelFile.gif"
+        extensions = "events"
+        class = "CWM.WarehouseProcess.Events.presentation.EventsEditor" 
+        contributorClass="CWM.WarehouseProcess.Events.presentation.EventsActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.WarehouseOperation.presentation.WarehouseOperationModelWizardID"
+      name = "%_UI_WarehouseOperationModelWizard_label"
+      class = "CWM.WarehouseOperation.presentation.WarehouseOperationModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/WarehouseOperationModelFile.gif">
+      <description>%_UI_WarehouseOperationModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.WarehouseOperation.presentation.WarehouseOperationEditorID"
+        name = "%_UI_WarehouseOperationEditor_label"
+        icon = "icons/full/obj16/WarehouseOperationModelFile.gif"
+        extensions = "warehouseoperation"
+        class = "CWM.WarehouseOperation.presentation.WarehouseOperationEditor" 
+        contributorClass="CWM.WarehouseOperation.presentation.WarehouseOperationActionBarContributor" >
+    </editor>
+  </extension>    
+
+  <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "CWM.CWMComplete.presentation.CWMCompleteModelWizardID"
+      name = "%_UI_CWMCompleteModelWizard_label"
+      class = "CWM.CWMComplete.presentation.CWMCompleteModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/CWMCompleteModelFile.gif">
+      <description>%_UI_CWMCompleteModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "CWM.CWMComplete.presentation.CWMCompleteEditorID"
+        name = "%_UI_CWMCompleteEditor_label"
+        icon = "icons/full/obj16/CWMCompleteModelFile.gif"
+        extensions = "cwmcomplete"
+        class = "CWM.CWMComplete.presentation.CWMCompleteEditor" 
+        contributorClass="CWM.CWMComplete.presentation.CWMCompleteActionBarContributor" >
+    </editor>
+  </extension>    
+</plugin>
