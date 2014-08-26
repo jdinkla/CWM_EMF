@@ -4,5 +4,7 @@ A prototypical editor for the Common Warehouse Metamodel (CWM) in the Eclipse Mo
 
 This code is in the alpha stage and currently not maintained.
 
-See http://dinkla.net/de/programming/eclipse-cwm.html
+See http://dinkla.net/en/programming/eclipse-cwm.html (english)
+or  http://dinkla.net/de/programming/eclipse-cwm.html (german).
+
 
